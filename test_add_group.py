@@ -74,7 +74,7 @@ class TestAddGroup(unittest.TestCase):
 
     def open_home_page(self, wd):
         # open home page
-        wd.get("http://localhost/addressbook/group.php")
+        wd.get("http://localhost/addressbook/index.php")
 
     def is_element_present(self, how, what):
         try: self.wd.find_element(by=how, value=what)

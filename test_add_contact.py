@@ -14,20 +14,14 @@ class TestAddContact(unittest.TestCase):
     
     def test_add_contact(self):
         wd = self.wd
-        self.open_home_page(wd)
         self.login(wd, username="admin", password="secret")
-        self.open_page_to_add_contact(wd)
         self.add_contact(wd, Contact(firstname='Name', lastname='LastName', nickname='nick', title='title', company='company', address='city17', home_phone='123456', email='email@example.com', bday='1', bmonth='January', byear='1990'))
-        self.return_homepage(wd)
         self.logout(wd)
 
     def test_add_empty_contact(self):
         wd = self.wd
-        self.open_home_page(wd)
         self.login(wd, username="admin", password="secret")
-        self.open_page_to_add_contact(wd)
         self.add_contact(wd, Contact(firstname='', lastname='', nickname='', title='', company='', address='', home_phone='', email='', bday='', bmonth='-', byear=''))
-        self.return_homepage(wd)
         self.logout(wd)
 
     def logout(self, wd):
@@ -40,6 +34,7 @@ class TestAddContact(unittest.TestCase):
         # wd.get("http://localhost/addressbook/index.php")
 
     def add_contact(self, wd, contact):
+        self.open_page_to_add_contact(wd)
         # fill contact data
         # input name
         wd.find_element_by_name("firstname").click()
@@ -75,13 +70,14 @@ class TestAddContact(unittest.TestCase):
         wd.find_element_by_name("byear").clear()
         wd.find_element_by_name("byear").send_keys(contact.byear)
         # save data
-        #wd.find_element_by_id("content").click()
         wd.find_element_by_name("submit").click()
+        self.return_homepage(wd)
 
     def open_page_to_add_contact(self, wd):
         wd.find_element_by_link_text("add new").click()
 
     def login(self, wd, username, password):
+        self.open_home_page(wd)
         wd.find_element_by_name("user").clear()
         wd.find_element_by_name("user").send_keys(username)
         wd.find_element_by_name("pass").clear()

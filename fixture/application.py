@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.support.select import Select
+from fixture.session import SessionHelper
 
 
 class Application:
@@ -7,11 +8,9 @@ class Application:
     def __init__(self):
         self.wd = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver')
         self.wd.implicitly_wait(30)
+        self.session = SessionHelper(self)
 
-    def logout(self):
-        wd = self.wd
-        # logout
-        wd.find_element_by_link_text("Logout").click()
+
 
     def return_group_page(self):
         wd = self.wd
@@ -48,16 +47,7 @@ class Application:
         # open group page
         wd.find_element_by_link_text("groups").click()
 
-    def login(self, username, password):
-        wd = self.wd
-        self.open_home_page()
-        # login
-        wd.find_element_by_name("user").click()
-        wd.find_element_by_name("user").clear()
-        wd.find_element_by_name("user").send_keys(username)
-        wd.find_element_by_name("pass").clear()
-        wd.find_element_by_name("pass").send_keys(password)
-        wd.find_element_by_xpath("//input[@value='Login']").click()
+
 
     def open_home_page(self):
         wd = self.wd

@@ -12,32 +12,34 @@ class TestAddGroup(unittest.TestCase):
         self.wd.implicitly_wait(30)
 
     def test_add_group(self):
-        wd = self.wd
-        self.login(wd, username="admin", password="secret")
-        self.fill_group_form(wd, Group(group_name="group_name", group_header="group_header", group_footer="group_footer"))
-        self.logout(wd)
+        self.login(username="admin", password="secret")
+        self.fill_group_form(Group(group_name="group_name", group_header="group_header", group_footer="group_footer"))
+        self.logout()
 
     def test_add_empty_group(self):
-        wd = self.wd
-        self.login(wd, username="admin", password="secret")
-        self.fill_group_form(wd,  Group(group_name="", group_header="", group_footer=""))
-        self.logout(wd)
+        self.login(username="admin", password="secret")
+        self.fill_group_form(Group(group_name="", group_header="", group_footer=""))
+        self.logout()
 
-    def logout(self, wd):
+    def logout(self):
+        wd = self.wd
         # logout
         wd.find_element_by_link_text("Logout").click()
 
-    def return_group_page(self, wd):
+    def return_group_page(self):
+        wd = self.wd
         # return group page
         wd.find_element_by_link_text("group page").click()
 
-    def submit_group_creation(self, wd):
+    def submit_group_creation(self):
+        wd = self.wd
         # submit group create
         wd.find_element_by_name("submit").click()
 
-    def fill_group_form(self, wd, group):
-        self.open_group_page(wd)
-        self.init_group_creation(wd)
+    def fill_group_form(self, group):
+        wd = self.wd
+        self.open_group_page()
+        self.init_group_creation()
         # fill group form
         wd.find_element_by_name("group_name").click()
         wd.find_element_by_name("group_name").clear()
@@ -46,19 +48,22 @@ class TestAddGroup(unittest.TestCase):
         wd.find_element_by_name("group_header").send_keys(group.group_header)
         wd.find_element_by_name("group_footer").clear()
         wd.find_element_by_name("group_footer").send_keys(group.group_footer)
-        self.submit_group_creation(wd)
-        self.return_group_page(wd)
+        self.submit_group_creation()
+        self.return_group_page()
 
-    def init_group_creation(self, wd):
+    def init_group_creation(self):
+        wd = self.wd
         # init group creation
         wd.find_element_by_name("new").click()
 
-    def open_group_page(self, wd):
+    def open_group_page(self):
+        wd = self.wd
         # open group page
         wd.find_element_by_link_text("groups").click()
 
-    def login(self, wd, username, password):
-        self.open_home_page(wd)
+    def login(self, username, password):
+        wd = self.wd
+        self.open_home_page()
         # login
         wd.find_element_by_name("user").click()
         wd.find_element_by_name("user").clear()
@@ -67,7 +72,8 @@ class TestAddGroup(unittest.TestCase):
         wd.find_element_by_name("pass").send_keys(password)
         wd.find_element_by_xpath("//input[@value='Login']").click()
 
-    def open_home_page(self, wd):
+    def open_home_page(self):
+        wd = self.wd
         # open home page
         wd.get("http://localhost/addressbook/index.php")
 

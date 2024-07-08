@@ -7,7 +7,7 @@ class ContactHelper:
         self.app = app
 
     def open_home_page(self):
-        wd = self.wd
+        wd = self.app.wd
         # open home page
         wd.get("http://localhost/addressbook/index.php")
 
@@ -61,7 +61,7 @@ class ContactHelper:
         # select first group
         wd.find_element_by_name("selected[]").click()
         # submit deletion group
-        wd.find_element_by_name("delete").click()
+        wd.find_element_by_xpath('//*[@id="content"]/form[2]/div[2]/input').click()
 
     def mod_first_contact(self, contact):
         wd = self.app.wd

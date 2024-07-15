@@ -15,33 +15,24 @@ class ContactHelper:
         wd = self.app.wd
         wd.find_element_by_link_text("add new").click()
 
+    def change_contact_fill_value(self, field_name, text):
+        wd = self.app.wd
+        if text is not None:
+            # fill contact data
+            wd.find_element_by_name(field_name).click()
+            wd.find_element_by_name(field_name).clear()
+            wd.find_element_by_name(field_name).send_keys(text)
+
     def fill_contact_data(self, contact):
         wd = self.app.wd
-        # fill contact data
-        wd.find_element_by_name("firstname").click()
-        wd.find_element_by_name("firstname").clear()
-        wd.find_element_by_name("firstname").send_keys(contact.firstname)
-        # input last name
-        wd.find_element_by_name("lastname").clear()
-        wd.find_element_by_name("lastname").send_keys(contact.lastname)
-        # input nickname
-        wd.find_element_by_name("nickname").clear()
-        wd.find_element_by_name("nickname").send_keys(contact.nickname)
-        # input title
-        wd.find_element_by_name("title").clear()
-        wd.find_element_by_name("title").send_keys(contact.title)
-        # input company
-        wd.find_element_by_name("company").clear()
-        wd.find_element_by_name("company").send_keys(contact.company)
-        # input address
-        wd.find_element_by_name("address").clear()
-        wd.find_element_by_name("address").send_keys(contact.address)
-        # input home_phone
-        wd.find_element_by_name("home").clear()
-        wd.find_element_by_name("home").send_keys(contact.home_phone)
-        # input email
-        wd.find_element_by_name("email").clear()
-        wd.find_element_by_name("email").send_keys(contact.email)
+        self.change_contact_fill_value('firstname', contact.firstname)
+        self.change_contact_fill_value('lastname', contact.lastname)
+        self.change_contact_fill_value('nickname', contact.nickname)
+        self.change_contact_fill_value('title', contact.title)
+        self.change_contact_fill_value('company', contact.company)
+        self.change_contact_fill_value('address', contact.address)
+        self.change_contact_fill_value('home', contact.home_phone)
+        self.change_contact_fill_value('email', contact.email)
         # input bday
         wd.find_element_by_name("bday").click()
         Select(wd.find_element_by_name("bday")).select_by_visible_text(contact.bday)

@@ -8,8 +8,9 @@ class ContactHelper:
 
     def open_home_page(self):
         wd = self.app.wd
-        # open home page
-        wd.get("http://localhost/addressbook/index.php")
+        if not (wd.current_url.endswith('/index.php') and len(wd.find_elements_by_name("Delete")) > 0):
+            # open home page
+            wd.get("http://localhost/addressbook/index.php")
 
     def open_page_to_add_contact(self):
         wd = self.app.wd

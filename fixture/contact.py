@@ -71,8 +71,12 @@ class ContactHelper:
         wd = self.app.wd
         self.open_home_page()
         contacts = []
-        for element in wd.find_elements_by_css_selector("tr[name='entry']"):
-            text = element.text
-            id = element.find_element_by_name("selected[]").get_attribute("value")
-            contacts.append(Contact(firstname=text, id=id))
+        allrows = wd.find_elements_by_css_selector("tr[name='entry']")
+        for row in allrows:
+            cells = row.find_elements_by_tag_name("td")
+            checkbox = cells[0].find_element_by_tag_name("input")
+            id = checkbox.get_attribute("value")
+            lastname = cells[1].text
+            firstname = cells[2].text
+            contacts.append(Contact(firstname=firstname, lastname=lastname, id=id))
         return contacts

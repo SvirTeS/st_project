@@ -35,14 +35,6 @@ class ContactHelper:
         self.change_contact_fill_value('address', contact.address)
         self.change_contact_fill_value('home', contact.home_phone)
         self.change_contact_fill_value('email', contact.email)
-        # input bday
-        wd.find_element_by_name("bday").click()
-        Select(wd.find_element_by_name("bday")).select_by_visible_text(contact.bday)
-        wd.find_element_by_name("bmonth").click()
-        Select(wd.find_element_by_name("bmonth")).select_by_visible_text(contact.bmonth)
-        wd.find_element_by_name("byear").click()
-        wd.find_element_by_name("byear").clear()
-        wd.find_element_by_name("byear").send_keys(contact.byear)
 
     def create(self, contact):
         wd = self.app.wd
@@ -79,7 +71,7 @@ class ContactHelper:
         wd = self.app.wd
         self.open_home_page()
         contacts = []
-        for element in wd.find_elements_by_class_name("entry"):
+        for element in wd.find_elements_by_css_selector("tr[name='entry']"):
             text = element.text
             id = element.find_element_by_name("selected[]").get_attribute("value")
             contacts.append(Contact(firstname=text, id=id))

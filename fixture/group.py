@@ -18,8 +18,11 @@ class GroupHelper:
         wd.find_element_by_name("new").click()
 
     def init_first_group_edition(self):
+        self.init_group_page(0)
+
+    def init_some_group_edition(self, index):
         wd = self.app.wd
-        wd.find_element_by_name("selected[]").click()
+        wd.find_elements_by_name("selected[]")[index].click()
         wd.find_element_by_name("edit").click()
 
     def fill_group_data(self, group):
@@ -54,6 +57,7 @@ class GroupHelper:
         wd = self.app.wd
         # submit group create
         wd.find_element_by_name("update").click()
+        self.group_cache = None
 
     def return_group_page(self):
         wd = self.app.wd
@@ -61,19 +65,38 @@ class GroupHelper:
         wd.find_element_by_link_text("group page").click()
 
     def del_first_group(self):
+        self.del_group_by_index(0)
+
+    def del_group_by_index(self, index):
         wd = self.app.wd
         self.open_group_page()
-        # select first group
-        wd.find_element_by_name("selected[]").click()
-        # submit deletion group
-        wd.find_element_by_name("delete").click()
+        self.select_group_by_index(index)
+        self.submit_del_group()
         self.return_group_page()
         self.group_cache = None
 
-    def mod_first_group(self, group):
+    def select_group_by_index(self, index):
+        wd = self.app.wd
+        # select group by index
+        wd.find_elements_by_name("selected[]")[index].click()
+
+    def select_first_group(self):
+        wd = self.app.wd
+        # select first group
+        wd.find_element_by_name("selected[]").click()
+
+    def submit_del_group(self):
+        wd = self.app.wd
+        # select first group
+        wd.find_element_by_name("delete").click()
+
+    def mod_first_group(self):
+        self.mod_group_by_index(0)
+
+    def mod_group_by_index(self, index, group):
         wd = self.app.wd
         self.open_group_page()
-        self.init_first_group_edition()
+        self.init_some_group_edition(index)
         self.fill_group_data(group)
         self.submit_group_edition()
         self.return_group_page()

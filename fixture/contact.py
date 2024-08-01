@@ -26,7 +26,6 @@ class ContactHelper:
             wd.find_element_by_name(field_name).send_keys(text)
 
     def fill_contact_data(self, contact):
-        wd = self.app.wd
         self.change_contact_fill_value('firstname', contact.firstname)
         self.change_contact_fill_value('lastname', contact.lastname)
         self.change_contact_fill_value('nickname', contact.nickname)
@@ -43,27 +42,47 @@ class ContactHelper:
         self.fill_contact_data(contact)
         # save data
         wd.find_element_by_name("submit").click()
-        contact_cache = None
+        self.contact_cache = None
+
+    def del_some_contact(self, index):
+        self.open_home_page()
+        self.select_contact_by_index(index)
+        self.del_contact()
+        self.contact_cache = None
 
     def del_first_contact(self):
-        wd = self.app.wd
-        self.open_home_page()
-        # select first group
-        wd.find_element_by_name("selected[]").click()
-        # submit deletion group
-        wd.find_element_by_xpath('//*[@id="content"]/form[2]/div[2]/input').click()
-        contact_cache = None
+        self.del_some_contact(0)
 
-    def mod_first_contact(self, contact):
+    def del_contact(self):
+        wd = self.app.wd
+        wd.find_element_by_xpath('//*[@id="content"]/form[2]/div[2]/input').click()
+
+    def mod_first_contact(self):
+        self.mod_some_contact(0)
+
+    def mod_some_contact(self, index, contact):
+        self.open_home_page()
+        self.update_contact_by_index(index)
+        self.fill_contact_data(contact)
+        self.submit_mod_contact()
+        self.contact_cache = None
+
+    def submit_mod_contact(self):
+        wd = self.app.wd
+        wd.find_element_by_name("update").click()
+
+    def select_first_contact(self):
+        self.select_contact_by_index(0)
+
+    def select_contact_by_index(self, index):
         wd = self.app.wd
         self.open_home_page()
-        #select first contact
-        wd.find_element_by_xpath("//*[@id='maintable']/tbody/tr[2]/td[8]/a/img").click()
-        # fill contact data
-        self.fill_contact_data(contact)
-        # submit
-        wd.find_element_by_name("update").click()
-        contact_cache = None
+        wd.find_elements_by_name("selected[]")[index].click()
+
+    def update_contact_by_index(self, index):
+        wd = self.app.wd
+        self.open_home_page()
+        wd.find_elements("xpath", "//img[@alt='Edit']")[index].click()
 
     def count(self):
         wd = self.app.wd

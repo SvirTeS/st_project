@@ -1,6 +1,5 @@
 from model.contact import Contact
 import re
-import conftest
 
 
 class ContactHelper:

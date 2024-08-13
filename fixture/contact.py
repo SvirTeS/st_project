@@ -1,6 +1,6 @@
-from selenium.webdriver.support.select import Select
 from model.contact import Contact
 import re
+import conftest
 
 
 class ContactHelper:
@@ -12,7 +12,7 @@ class ContactHelper:
         wd = self.app.wd
         if not (wd.current_url.endswith('/index.php') and len(wd.find_elements_by_name("Delete")) > 0):
             # open home page
-            wd.get("http://localhost/addressbook/index.php")
+            wd.find_element_by_link_text("home").click()
 
     def open_page_to_add_contact(self):
         wd = self.app.wd

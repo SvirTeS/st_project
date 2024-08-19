@@ -21,6 +21,7 @@ def app(request):
     if fixture is None or fixture.is_valid():
         fixture = Application(browser=browser, base_url=target['baseUrl'])
     fixture.session.ensure_login(username=target['username'], password=target['password'])
+    if fixture is None or not fixture.is_valid():
     return fixture
 
 
@@ -44,7 +45,7 @@ def pytest_generate_tests(metafunc):
         if fixture.startswith('data_'):
             testdata = load_from_module(fixture[5:])
             metafunc.parametrize(fixture, testdata, ids=[str(x) for x in testdata])
-        if fixture.startswith('json_'):
+        elif fixture.startswith('json_'):
             testdata = load_from_json(fixture[5:])
             metafunc.parametrize(fixture, testdata, ids=[str(x) for x in testdata])
 

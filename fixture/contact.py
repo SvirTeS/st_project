@@ -44,18 +44,24 @@ class ContactHelper:
         wd.find_element_by_name("submit").click()
         self.contact_cache = None
 
-    def del_some_contact(self, index):
+    def del_contact_by_index(self, index):
+        wd = self.app.wd
         self.open_home_page()
         self.select_contact_by_index(index)
-        self.del_contact()
+        wd.find_element_by_xpath('//*[@id="content"]/form[2]/div[2]/input').click()
+        self.open_home_page()
+        self.contact_cache = None
+
+    def del_contact_by_id(self, id):
+        wd = self.app.wd
+        self.open_home_page()
+        self.select_contact_by_id(id)
+        wd.find_element_by_xpath('//*[@id="content"]/form[2]/div[2]/input').click()
+        self.open_home_page()
         self.contact_cache = None
 
     def del_first_contact(self):
-        self.del_some_contact(0)
-
-    def del_contact(self):
-        wd = self.app.wd
-        wd.find_element_by_xpath('//*[@id="content"]/form[2]/div[2]/input').click()
+        self.del_contact_by_index(0)
 
     def mod_first_contact(self):
         self.mod_some_contact(0)
@@ -78,6 +84,16 @@ class ContactHelper:
         wd = self.app.wd
         self.open_home_page()
         wd.find_elements_by_name("selected[]")[index].click()
+
+    def select_contact_by_id(self, id):
+        wd = self.app.wd
+        self.open_home_page()
+        wd.find_elements_by_name("input[value='%s']" % id).click()
+
+    def select_contact_by_id(self, id):
+        wd = self.app.wd
+        self.open_home_page()
+        wd.find_element_by_css_selector("input[value='%s']" % id).click()
 
     def update_contact_by_index(self, index):
         wd = self.app.wd

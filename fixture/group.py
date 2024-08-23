@@ -25,6 +25,11 @@ class GroupHelper:
         wd.find_elements_by_name("selected[]")[index].click()
         wd.find_element_by_name("edit").click()
 
+    def init_group_edition_by_id(self, id):
+        wd = self.app.wd
+        self.select_group_by_id(id)
+        wd.find_element_by_name("edit").click()
+
     def fill_group_data(self, group):
         wd = self.app.wd
         # fill group form
@@ -78,7 +83,12 @@ class GroupHelper:
     def select_group_by_index(self, index):
         wd = self.app.wd
         # select group by index
-        wd.find_elements_by_name("selected[]")[index].click()
+        wd.find_element_by_name("selected[]")[index].click()
+
+    def select_group_by_id(self, id):
+        wd = self.app.wd
+        # select group by index
+        wd.find_element_by_css_selector("input[value='%s']" % id).click()
 
     def select_first_group(self):
         wd = self.app.wd
@@ -119,3 +129,20 @@ class GroupHelper:
                 id = element.find_element_by_name("selected[]").get_attribute("value")
                 self.group_cache.append(Group(group_name=text, id=id))
         return list(self.group_cache)
+
+    def del_group_by_id(self, id):
+        wd = self.app.wd
+        self.open_group_page()
+        self.select_group_by_id(id)
+        self.submit_del_group()
+        self.return_group_page()
+        self.group_cache = None
+
+    def mod_group_by_id(self, id, group):
+        wd = self.app.wd
+        self.open_group_page()
+        self.init_group_edition_by_id(id)
+        self.fill_group_data(group)
+        self.submit_group_edition()
+        self.return_group_page()
+        self.group_cache = None

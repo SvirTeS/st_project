@@ -8,6 +8,7 @@ def test_mod_some_group(app, db, check_ui):
     old_groups = db.get_group_list()
     group_choice = random.choice(old_groups)
     group = (Group(group_name="mod_group_name", group_header="mod_group_header", group_footer="mod_group_footer"))
+    group.id = group_choice.id
     app.group.mod_group_by_id(group_choice.id, group)
     new_groups = db.get_group_list()
     old_groups = [group if x == group_choice else x for x in old_groups]

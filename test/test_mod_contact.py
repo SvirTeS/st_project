@@ -9,6 +9,7 @@ def test_mod_some_contact(app, db, check_ui):
     contact = (Contact(firstname='mod_name', lastname='mod_lname', nickname='mod_nick', title='mod_title',
                 company='mod_company', address='mod_address', home_phone='mod_123321', email='mod_user@example.com'))
     contact_choice = random.choice(old_contacts)
+    contact.id = contact_choice.id
     app.contact.mod_contact_by_id(contact_choice.id, contact)
     new_contacts = db.get_contact_list()
     old_contacts = [contact if x == contact_choice else x for x in old_contacts]

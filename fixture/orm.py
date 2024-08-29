@@ -62,6 +62,3 @@ class ORMFixture:
     def get_groups_in_contact(self, contact):
         orm_contact = list(select(c for c in ORMFixture.ORMContact if c.id == contact.id))[0]
         return self.convert_contacts_to_model(orm_contact.groups)
-
-
-

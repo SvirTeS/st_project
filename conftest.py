@@ -5,6 +5,7 @@ import importlib
 import jsonpickle
 from fixture.application import Application
 from fixture.db import DbFixture
+from fixture.orm import ORMFixture
 
 fixture = None
 target = None
@@ -50,6 +51,11 @@ def db(request):
 @pytest.fixture
 def check_ui(request):
     return request.config.getoption('--check_ui')
+
+@pytest.fixture(scope='session')
+def orm():
+    db = ORMFixture(host="127.0.0.1", name="addressbook", user="root", password="")
+    return db
 
 
 def pytest_addoption(parser):

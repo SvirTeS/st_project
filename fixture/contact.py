@@ -1,6 +1,7 @@
 from model.contact import Contact
 from selenium.webdriver.support.ui import Select
 import re
+import time
 
 
 class ContactHelper:
@@ -95,7 +96,6 @@ class ContactHelper:
 
     def select_contact_by_id(self, id):
         wd = self.app.wd
-        self.open_home_page()
         wd.find_element_by_css_selector(f"input[value='{id}']").click()
 
     def update_contact_by_index(self, index):
@@ -180,7 +180,7 @@ class ContactHelper:
 
     def remove_contact_from_group_by_id(self, contact_id, group_id):
         wd = self.app.wd
-        group_choice = Select(wd.find_element_by_name("group"))
+        group_choice = Select(wd.find_element_by_xpath('//*[@id="right"]/select'))
         group_choice.select_by_value(group_id)
         self.select_contact_by_id(contact_id)
         wd.find_element_by_name("remove").click()

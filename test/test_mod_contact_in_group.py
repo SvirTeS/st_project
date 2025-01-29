@@ -25,7 +25,7 @@ def test_remove_contact_from_group(app, orm):
         app.group.create(Group(group_name='test'))
     groups_list = orm.get_group_list()
     group_choice = random.choice(groups_list)
-    contacts_list = orm.get_contact_list()
+    contacts_list = orm.get_contacts_in_group(group_choice)
     contact_choice = random.choice(contacts_list)
     contact_choice_id = contact_choice.id
     app.contact.remove_contact_from_group_by_id(contact_choice.id, group_choice.id)

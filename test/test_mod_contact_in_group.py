@@ -8,6 +8,7 @@ def test_add_contact_in_group(app, orm):
         app.contact.create(Contact(firstname='test'))
     if len(orm.get_group_list()) == 0:
         app.group.create(Group(group_name='test'))
+        app.open_home_page()
     groups_list = orm.get_group_list()
     group_choice = random.choice(groups_list)
     contacts_list = orm.get_contacts_not_in_group(group_choice)
@@ -23,6 +24,7 @@ def test_remove_contact_from_group(app, orm):
         app.contact.create(Contact(firstname='test'))
     if len(orm.get_group_list()) == 0:
         app.group.create(Group(group_name='test'))
+        app.open_home_page()
     groups_list = orm.get_group_list()
     group_choice = random.choice(groups_list)
     contacts_list = orm.get_contacts_in_group(group_choice)

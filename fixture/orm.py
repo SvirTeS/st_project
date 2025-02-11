@@ -1,7 +1,6 @@
 from sqlalchemy import create_engine, Column, Integer, String, DateTime, Table, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
-from datetime import datetime
 from model.group import Group
 from model.contact import Contact
 
@@ -72,3 +71,12 @@ class ORMFixture:
         groups = orm_contact.groups if orm_contact else []
         session.close()
         return self.convert_groups_to_model(groups)
+
+    def get_contacts_without_group(self):
+        session = self.Session()
+        contacts = session.query(self.ORMContact).filter(
+            self.ORMContact.deprecated == None,
+            ~self.ORMContact.groups.any()
+        ).all()
+        session.close()
+        return self.convert_contacts_to_model(contacts)

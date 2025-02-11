@@ -9,6 +9,9 @@ def test_add_contact_in_group(app, orm):
     if len(orm.get_group_list()) == 0:
         app.group.create(Group(group_name='test'))
         app.open_home_page()
+    if len(orm.get_contacts_without_group()) == 0:
+        app.contact.create(Contact(firstname='test'))
+        app.open_home_page()
     groups_list = orm.get_group_list()
     group_choice = random.choice(groups_list)
     contacts_list = orm.get_contacts_not_in_group(group_choice)

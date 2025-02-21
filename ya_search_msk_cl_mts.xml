@@ -1,0 +1,1463 @@
+yml_catalog date="2025-02-21 12:22">
+  <shop>
+    <name>Ситилинк</name>
+    <company>Общество с ограниченной ответственностью "Ситилинк"</company>
+    <url>https://www.citilink.ru/</url>
+    <currencies>
+      <currency id="RUR" rate="1" />
+      <currency id="USD" rate="CBRF" />
+      <currency id="EUR" rate="CBRF" />
+      <currency id="UAH" rate="CBRF" />
+    </currencies>
+    <categories>
+      <category id="1">Ноутбуки и компьютеры</category>
+      <category id="2" parentId="1588">Компьютеры</category>
+      <category id="3" parentId="1">Ноутбуки</category>
+      <category id="6" parentId="676">Клавиатуры</category>
+      <category id="7" parentId="676">Мыши</category>
+      <category id="8" parentId="676">Комплекты (Клавиатура+Мышь)</category>
+      <category id="9" parentId="949">Джойстики и геймпады</category>
+      <category id="10" parentId="949">Игровые рули</category>
+      <category id="11" parentId="676">Графические планшеты</category>
+      <category id="12" parentId="1">Защита питания</category>
+      <category id="13" parentId="12">Источники бесперебойного питания</category>
+      <category id="14" parentId="12">Сетевые фильтры и удлинители</category>
+      <category id="15" parentId="12">Аккумуляторные батареи для ИБП</category>
+      <category id="16" parentId="12">Стабилизаторы напряжения бытовые</category>
+      <category id="17" parentId="12">Модули и монтаж</category>
+      <category id="19" parentId="900">Сумки для ноутбуков</category>
+      <category id="20" parentId="900">Батареи для ноутбуков</category>
+      <category id="21" parentId="900">Адаптеры питания для ноутбуков</category>
+      <category id="22" parentId="900">Док-станции</category>
+      <category id="25">Комплектующие для ПК</category>
+      <category id="26" parentId="25">Процессоры</category>
+      <category id="27" parentId="25">Материнские платы</category>
+      <category id="28" parentId="25">Оперативная память</category>
+      <category id="29" parentId="25">Видеокарты</category>
+      <category id="30" parentId="25">Звуковые карты</category>
+      <category id="32" parentId="25">Жесткие диски</category>
+      <category id="33" parentId="775">Внешние жесткие диски и SSD</category>
+      <category id="34" parentId="775">Корпуса для жестких дисков</category>
+      <category id="36" parentId="25">Оптические приводы</category>
+      <category id="37" parentId="775">Оптические диски</category>
+      <category id="39" parentId="25">Системы охлаждения компьютера</category>
+      <category id="40" parentId="25">Блоки питания</category>
+      <category id="41" parentId="25">Корпуса</category>
+      <category id="42" parentId="25">Контроллеры для ПК</category>
+      <category id="43" parentId="775">Флешки</category>
+      <category id="45" parentId="25">Карты видеозахвата</category>
+      <category id="47" parentId="775">Картридеры</category>
+      <category id="50" parentId="900">Хабы и разветвители</category>
+      <category id="51" parentId="900">Кабели для ПК и ноутбуков</category>
+      <category id="52" parentId="676">Коврики для мыши</category>
+      <category id="53" parentId="900">Чистящие средства</category>
+      <category id="54" parentId="791">Фломастеры</category>
+      <category id="56" parentId="1">Батарейки</category>
+      <category id="57" parentId="1817">Преобразователи напряжения</category>
+      <category id="58" parentId="1">Оргтехника</category>
+      <category id="61" parentId="508">Телефония</category>
+      <category id="62" parentId="61">Проводные телефоны</category>
+      <category id="63" parentId="61">Радиотелефоны</category>
+      <category id="64" parentId="61">IP-телефоны и базовые станции</category>
+      <category id="65" parentId="61">Дополнительные трубки</category>
+      <category id="66" parentId="61">Телефонные гарнитуры</category>
+      <category id="68" parentId="58">Принтеры</category>
+      <category id="72" parentId="82">Плоттеры</category>
+      <category id="73" parentId="82">Копиры</category>
+      <category id="74" parentId="82">Опции для копиров</category>
+      <category id="77" parentId="58">Картриджи</category>
+      <category id="78" parentId="941">Тонеры</category>
+      <category id="79" parentId="941">Фотобарабаны</category>
+      <category id="80" parentId="1795">Бумага для принтера</category>
+      <category id="81" parentId="941">Термопленки</category>
+      <category id="82" parentId="508">Офисная техника</category>
+      <category id="83" parentId="82">Уничтожители бумаг</category>
+      <category id="84" parentId="296">Проекторы</category>
+      <category id="85" parentId="296">Экраны для проекторов</category>
+      <category id="87" parentId="82">Ламинаторы</category>
+      <category id="89" parentId="61">АТС</category>
+      <category id="92" parentId="61">Шлюзы и модули для IP-телефонии</category>
+      <category id="96" parentId="1805">Цифровые фотоаппараты</category>
+      <category id="97" parentId="1805">Зеркальные фотоаппараты</category>
+      <category id="98" parentId="1805">Объективы для фотоаппаратов</category>
+      <category id="100" parentId="1799">Штативы, стедикамы и селфи-палки</category>
+      <category id="104" parentId="676">Web-камеры</category>
+      <category id="107" parentId="1805">Цифровые фоторамки</category>
+      <category id="111">Телевизоры, аудио-видео техника</category>
+      <category id="112" parentId="111">Аудиотехника</category>
+      <category id="113" parentId="1808">MP3 плееры</category>
+      <category id="114" parentId="112">Микрофоны</category>
+      <category id="116" parentId="676">Колонки для компьютера</category>
+      <category id="118" parentId="111">Телевизоры</category>
+      <category id="119" parentId="298">DVD плееры</category>
+      <category id="120" parentId="445">Игровые приставки</category>
+      <category id="122" parentId="1">Сетевое оборудование</category>
+      <category id="123" parentId="122">Сетевые адаптеры</category>
+      <category id="124" parentId="122">Модемы</category>
+      <category id="125" parentId="122">Коммутаторы</category>
+      <category id="126" parentId="122">Wi-Fi роутеры (Маршрутизаторы)</category>
+      <category id="130" parentId="1871">Антенны</category>
+      <category id="132" parentId="1871">Доп.модули, трансиверы</category>
+      <category id="133" parentId="1871">Переключатели и кабели</category>
+      <category id="134" parentId="1871">Коннекторы, розетки</category>
+      <category id="135" parentId="122">Сетевые кабели и СКС</category>
+      <category id="137" parentId="319">Серверы</category>
+      <category id="138" parentId="319">Процессоры для серверов</category>
+      <category id="139" parentId="319">Память для серверов</category>
+      <category id="140" parentId="319">Материнские платы для серверов</category>
+      <category id="141" parentId="319">Жесткие диски для серверов</category>
+      <category id="143" parentId="319">Контроллеры, адаптеры, модули</category>
+      <category id="144" parentId="319">Корпуса для серверов</category>
+      <category id="145" parentId="319">Монтажные комплекты, ЗИП</category>
+      <category id="146" parentId="319">Системы хранения информации</category>
+      <category id="149" parentId="319">Специализированный кабель</category>
+      <category id="150" parentId="319">Питание и охлаждение</category>
+      <category id="162" parentId="1">Мониторы</category>
+      <category id="163" parentId="1">Программное обеспечение</category>
+      <category id="164" parentId="163">Операционные системы</category>
+      <category id="165" parentId="163">Офисные приложения</category>
+      <category id="166" parentId="163">Утилиты</category>
+      <category id="168" parentId="1808">Диктофоны</category>
+      <category id="169" parentId="1816">FM трансмиттеры</category>
+      <category id="170" parentId="775">Карты памяти</category>
+      <category id="184" parentId="1305">Навигаторы GPS/Глонасс</category>
+      <category id="196" parentId="445">Аксессуары для игровых приставок</category>
+      <category id="201" parentId="111">Кронштейны</category>
+      <category id="202" parentId="298">Медиаплееры</category>
+      <category id="205" parentId="775">Сетевые хранилища NAS</category>
+      <category id="207">Смартфоны и планшеты</category>
+      <category id="208" parentId="1767">Утюги</category>
+      <category id="209" parentId="367">Пылесосы</category>
+      <category id="210" parentId="945">Фены и фен-щетки</category>
+      <category id="211" parentId="1822">Чайники электрические</category>
+      <category id="214" parentId="207">Смартфоны</category>
+      <category id="215" parentId="783">Электробритвы</category>
+      <category id="216" parentId="663">Зубные щетки</category>
+      <category id="218" parentId="783">Эпиляторы</category>
+      <category id="219" parentId="1423">Подарочные сертификаты</category>
+      <category id="221" parentId="112">Радиоприемники</category>
+      <category id="222" parentId="112">Радиобудильники</category>
+      <category id="224" parentId="112">Магнитолы</category>
+      <category id="225" parentId="112">Музыкальные центры</category>
+      <category id="226" parentId="776">Чехлы для смартфонов</category>
+      <category id="229" parentId="207">Зарядные устройства</category>
+      <category id="230" parentId="1822">Микроволновые печи</category>
+      <category id="231" parentId="1826">Пароварки</category>
+      <category id="235" parentId="1799">Электронные книги</category>
+      <category id="237" parentId="941">Чернила</category>
+      <category id="238" parentId="39">Термопаста</category>
+      <category id="240" parentId="207">Наушники</category>
+      <category id="242" parentId="207">Кабели для смартфонов и планшетов</category>
+      <category id="248" parentId="776">Прочие аксессуары для смартфонов</category>
+      <category id="249" parentId="783">Триммеры</category>
+      <category id="250" parentId="39">Аксессуары для устройств охлаждения</category>
+      <category id="251" parentId="676">Наушники с микрофоном</category>
+      <category id="256" parentId="945">Стайлеры, плойки и выпрямители</category>
+      <category id="259" parentId="301">Кофемашины</category>
+      <category id="260" parentId="301">Кофемолки</category>
+      <category id="261" parentId="1827">Блендеры</category>
+      <category id="262" parentId="1827">Миксеры</category>
+      <category id="263" parentId="1827">Мясорубки</category>
+      <category id="264" parentId="1828">Соковыжималки</category>
+      <category id="265" parentId="1826">Тостеры</category>
+      <category id="266" parentId="1826">Хлебопечи</category>
+      <category id="267" parentId="616">Весы напольные</category>
+      <category id="272" parentId="779">Погодные станции</category>
+      <category id="273" parentId="783">Аксессуары для бритв и эпиляторов</category>
+      <category id="277" parentId="1825">Сплит-системы</category>
+      <category id="278" parentId="1423">Автотовары</category>
+      <category id="279" parentId="1816">Колонки автомобильные</category>
+      <category id="281" parentId="1816">Автомагнитолы</category>
+      <category id="282" parentId="1816">Сабвуферы автомобильные</category>
+      <category id="283" parentId="1816">Усилители автомобильные</category>
+      <category id="284" parentId="675">Настольные лампы</category>
+      <category id="285" parentId="675">Лампочки</category>
+      <category id="287" parentId="573">Электрические водонагреватели</category>
+      <category id="289" parentId="1825">Вентиляторы</category>
+      <category id="290" parentId="163">Антивирусы</category>
+      <category id="296" parentId="111">Проекторы и экраны</category>
+      <category id="298" parentId="111">Видеотехника</category>
+      <category id="300" parentId="1828">Термопоты</category>
+      <category id="301" parentId="1822">Кофемашины, кофеварки</category>
+      <category id="302" parentId="1829">Сэндвичницы</category>
+      <category id="311" parentId="663">Аксессуары для зубных щеток</category>
+      <category id="316" parentId="1826">Мультиварки</category>
+      <category id="318">Красота и здоровье</category>
+      <category id="319" parentId="25">Серверы и СХД</category>
+      <category id="322" parentId="1822">Крупная бытовая техника</category>
+      <category id="323" parentId="322">Холодильники</category>
+      <category id="324" parentId="322">Посудомоечные машины</category>
+      <category id="325" parentId="1823">Стиральные машины</category>
+      <category id="326" parentId="322">Электрические плиты</category>
+      <category id="327" parentId="322">Газовые плиты</category>
+      <category id="328" parentId="301">Кофеварки</category>
+      <category id="330" parentId="322">Морозильные камеры</category>
+      <category id="331" parentId="1827">Кухонные комбайны</category>
+      <category id="332" parentId="82">Переплетчики</category>
+      <category id="340" parentId="941">Аксессуары для переплетчиков</category>
+      <category id="341" parentId="941">Пленки для ламинирования</category>
+      <category id="342" parentId="82">Резаки</category>
+      <category id="347" parentId="1824">Воздухоочистители</category>
+      <category id="350" parentId="1826">Аэрогрили и электрогрили</category>
+      <category id="351" parentId="779">Аксессуары для климатической техники</category>
+      <category id="352" parentId="1824">Увлажнители воздуха</category>
+      <category id="354" parentId="947">Товары для маникюра и педикюра</category>
+      <category id="355" parentId="406">Музыкальные пульты</category>
+      <category id="356" parentId="779">Обогреватели</category>
+      <category id="357" parentId="1305">Радар-детекторы</category>
+      <category id="358" parentId="1305">Автосигнализации</category>
+      <category id="359" parentId="318">Массажеры</category>
+      <category id="360" parentId="1826">Кухонные весы</category>
+      <category id="362" parentId="1823">Сушильные машины</category>
+      <category id="366" parentId="367">Аксессуары для пылесосов</category>
+      <category id="367" parentId="779">Техника для уборки</category>
+      <category id="368" parentId="1767">Парогенераторы</category>
+      <category id="369" parentId="1439">Гладильные доски</category>
+      <category id="370" parentId="676">Аксессуары для графических планшетов</category>
+      <category id="372" parentId="779">Очистка воды</category>
+      <category id="373" parentId="372">Фильтры для воды</category>
+      <category id="374" parentId="372">Картриджи для фильтров</category>
+      <category id="376" parentId="207">Планшеты</category>
+      <category id="377" parentId="669">Швейные машины</category>
+      <category id="378" parentId="1305">Видеорегистраторы</category>
+      <category id="381" parentId="1822">Вытяжки</category>
+      <category id="382" parentId="381">Встраиваемые вытяжки</category>
+      <category id="383" parentId="381">Каминные вытяжки</category>
+      <category id="384" parentId="381">Подвесные вытяжки</category>
+      <category id="385" parentId="1822">Встраиваемая техника</category>
+      <category id="386" parentId="385">Встраиваемые газовые панели</category>
+      <category id="387" parentId="385">Встраиваемые электрические панели</category>
+      <category id="388" parentId="385">Встраиваемые посудомоечные машины</category>
+      <category id="389" parentId="385">Духовые шкафы</category>
+      <category id="392" parentId="1826">Фритюрницы</category>
+      <category id="393" parentId="1829">Йогуртницы</category>
+      <category id="394" parentId="111">Кабели для ТВ и аудио-видео</category>
+      <category id="396" parentId="1829">Блинницы</category>
+      <category id="397" parentId="1871">Кабельный инструмент</category>
+      <category id="398" parentId="1588">Компьютеры Ситилинк</category>
+      <category id="400" parentId="508">Системы контроля и управления доступом (СКУД)</category>
+      <category id="401" parentId="508">Офисная эргономика</category>
+      <category id="402" parentId="1827">Ломтерезки</category>
+      <category id="403" parentId="25">Аксессуары для жестких дисков</category>
+      <category id="405" parentId="406">Синтезаторы</category>
+      <category id="406" parentId="1799">Музыкальные инструменты</category>
+      <category id="408" parentId="406">Аксессуары для музыкальных инструментов</category>
+      <category id="409" parentId="1817">Автохолодильники</category>
+      <category id="410">Инструменты для ремонта</category>
+      <category id="411" parentId="1796">Мойки высокого давления (Минимойки)</category>
+      <category id="412" parentId="435">Дрели</category>
+      <category id="413" parentId="435">Шуруповерты</category>
+      <category id="414" parentId="435">Перфораторы</category>
+      <category id="415" parentId="435">Лобзики</category>
+      <category id="416" parentId="435">Шлифмашины</category>
+      <category id="417" parentId="435">Рубанки</category>
+      <category id="418" parentId="434">Газонокосилки</category>
+      <category id="420" parentId="434">Садовые триммеры</category>
+      <category id="422" parentId="410">Расходные материалы</category>
+      <category id="424" parentId="1815">Оснастка к садовой технике</category>
+      <category id="425" parentId="434">Ножницы и кусторезы</category>
+      <category id="426" parentId="434">Садовые измельчители</category>
+      <category id="427" parentId="435">Циркулярные (дисковые) пилы</category>
+      <category id="428" parentId="435">Фрезеры</category>
+      <category id="429" parentId="435">Фены и термопистолеты</category>
+      <category id="430" parentId="435">Краскопульты</category>
+      <category id="431" parentId="367">Пароочистители</category>
+      <category id="433" parentId="1796">Аксессуары для минимоек</category>
+      <category id="434" parentId="1815">Садовая техника</category>
+      <category id="435" parentId="410">Электроинструмент</category>
+      <category id="436" parentId="1305">Парктроники</category>
+      <category id="437" parentId="1305">Камеры заднего вида</category>
+      <category id="438" parentId="1825">Мобильные кондиционеры</category>
+      <category id="440" parentId="416">Шлифовальные машины</category>
+      <category id="445" parentId="984">Консоли и аксессуары</category>
+      <category id="447" parentId="984">Игры для приставок</category>
+      <category id="449" parentId="1799">Студийный свет</category>
+      <category id="450" parentId="207">Аксессуары для планшетов</category>
+      <category id="452" parentId="1826">Сушки для фруктов и овощей</category>
+      <category id="455" parentId="600">Калькуляторы</category>
+      <category id="456" parentId="1786">Измерительный инструмент</category>
+      <category id="457" parentId="434">Цепные пилы</category>
+      <category id="458" parentId="435">Точила</category>
+      <category id="461" parentId="422">Пилки и полотна</category>
+      <category id="464" parentId="422">Круги, диски, фрезы</category>
+      <category id="465" parentId="435">Граверы</category>
+      <category id="466" parentId="669">Оверлоки</category>
+      <category id="475" parentId="422">Наборы бит и сверл</category>
+      <category id="486" parentId="554">Приставки для цифрового ТВ</category>
+      <category id="491" parentId="675">Фонари</category>
+      <category id="492" parentId="435">Отбойные молотки</category>
+      <category id="493" parentId="435">Торцовочные пилы</category>
+      <category id="494" parentId="435">Сабельные пилы</category>
+      <category id="495" parentId="435">Строительные степлеры</category>
+      <category id="496" parentId="947">Косметические приборы</category>
+      <category id="498" parentId="111">Техника Hi-Fi</category>
+      <category id="499" parentId="498">Ресиверы Hi-Fi</category>
+      <category id="500" parentId="498">Усилители Hi-Fi</category>
+      <category id="501" parentId="498">Акустические системы</category>
+      <category id="502" parentId="498">Сабвуферы Hi-Fi</category>
+      <category id="503" parentId="498">CD плееры Hi-Fi</category>
+      <category id="504" parentId="498">Виниловые проигрыватели</category>
+      <category id="508">Офисная техника и мебель</category>
+      <category id="509" parentId="1066">Офисные кресла</category>
+      <category id="510" parentId="301">Аксессуары для кофе</category>
+      <category id="511" parentId="1871">Медиаконвертеры</category>
+      <category id="512" parentId="1066">Компьютерные столы</category>
+      <category id="513" parentId="1791">Насосы</category>
+      <category id="515" parentId="1815">Поливочное оборудование</category>
+      <category id="516" parentId="422">Аксессуары для электроинструмента</category>
+      <category id="521" parentId="385">Встраиваемые микроволновые печи</category>
+      <category id="522" parentId="385">Встраиваемые холодильники</category>
+      <category id="523" parentId="1823">Встраиваемые стиральные машины</category>
+      <category id="524" parentId="1826">Мини-печи</category>
+      <category id="527" parentId="410">Наборы инструментов</category>
+      <category id="530" parentId="112">Спикерфоны</category>
+      <category id="531" parentId="1066">Тумбы</category>
+      <category id="532" parentId="356">Электрокамины</category>
+      <category id="533" parentId="207">Внешние аккумуляторы (Power Bank)</category>
+      <category id="534" parentId="1824">Осушители воздуха</category>
+      <category id="538" parentId="450">Чехлы для планшетов</category>
+      <category id="541" parentId="450">Прочие аксессуары для планшетов</category>
+      <category id="543" parentId="559">Наборы посуды</category>
+      <category id="544" parentId="1817">Пусковые и зарядные устройства</category>
+      <category id="546" parentId="1817">Автомобильные компрессоры</category>
+      <category id="548" parentId="1260">Тепловые пушки</category>
+      <category id="549" parentId="508">Интерактивные доски</category>
+      <category id="550" parentId="1822">Аксессуары для кухонной техники</category>
+      <category id="551" parentId="508">Презентеры</category>
+      <category id="552" parentId="554">Комплекты спутникового ТВ</category>
+      <category id="554" parentId="111">Спутниковое и цифровое ТВ</category>
+      <category id="555" parentId="111">Аксессуары для телевизоров</category>
+      <category id="556" parentId="779">Сушилки для рук</category>
+      <category id="557" parentId="1423">Снегоуборщики</category>
+      <category id="558" parentId="559">Сковороды</category>
+      <category id="559" parentId="1423">Посуда</category>
+      <category id="560" parentId="559">Сотейники</category>
+      <category id="561" parentId="559">Кастрюли</category>
+      <category id="562" parentId="559">Ковши</category>
+      <category id="566" parentId="555">ТВ антенны</category>
+      <category id="567" parentId="573">Газовые водонагреватели</category>
+      <category id="568" parentId="1777">Сварочные аппараты</category>
+      <category id="569" parentId="595">Генераторы</category>
+      <category id="573" parentId="779">Водонагреватели</category>
+      <category id="575" parentId="559">Крышки</category>
+      <category id="576" parentId="450">Защитные пленки для планшетов</category>
+      <category id="577" parentId="25">Платформы для сборки ПК</category>
+      <category id="578" parentId="776">Защитные пленки и стекла</category>
+      <category id="579" parentId="1439">Сушилки для белья</category>
+      <category id="580" parentId="25">SSD накопители</category>
+      <category id="583" parentId="381">Аксессуары для вытяжек</category>
+      <category id="584" parentId="1767">Отпариватели</category>
+      <category id="586" parentId="356">Конвекторы</category>
+      <category id="587" parentId="356">Масляные радиаторы</category>
+      <category id="588" parentId="356">Тепловентиляторы</category>
+      <category id="589" parentId="356">Инфракрасные обогреватели</category>
+      <category id="591" parentId="1260">Тепловые завесы</category>
+      <category id="592" parentId="356">Газовые обогреватели</category>
+      <category id="594" parentId="1066">Полки</category>
+      <category id="595" parentId="410">Силовая техника</category>
+      <category id="596" parentId="595">Стабилизаторы напряжения силовые</category>
+      <category id="600" parentId="1792">Офисная канцелярия</category>
+      <category id="601" parentId="508">Демонстрационное оборудование</category>
+      <category id="602" parentId="600">Дыроколы</category>
+      <category id="603" parentId="600">Степлеры</category>
+      <category id="610" parentId="600">Скобы для степлера</category>
+      <category id="615" parentId="600">Настольные наборы</category>
+      <category id="616" parentId="318">Медицинское оборудование</category>
+      <category id="618" parentId="616">Грелки</category>
+      <category id="619" parentId="616">Ингаляторы</category>
+      <category id="622" parentId="616">Термометры</category>
+      <category id="623" parentId="616">Тонометры</category>
+      <category id="624" parentId="832">Сумки и чемоданы</category>
+      <category id="626" parentId="944">Настенные часы</category>
+      <category id="628" parentId="1521">Комплекты видеонаблюдения</category>
+      <category id="629" parentId="1521">Камеры видеонаблюдения</category>
+      <category id="630" parentId="1521">Аксессуары для видеокамер</category>
+      <category id="632" parentId="1521">Мониторы для видеонаблюдения</category>
+      <category id="634" parentId="1521">Видеорегистраторы для видеонаблюдения</category>
+      <category id="635" parentId="400">Замки для СКУД</category>
+      <category id="636" parentId="400">Доводчики для СКУД</category>
+      <category id="640" parentId="1525">Домофоны</category>
+      <category id="641" parentId="1835">Охранные сигнализации</category>
+      <category id="642" parentId="1525">Вызывные панели</category>
+      <category id="646" parentId="410">Пневматический инструмент</category>
+      <category id="663" parentId="318">Зубные щетки и ирригаторы</category>
+      <category id="669" parentId="779">Швейное оборудование</category>
+      <category id="675" parentId="1423">Освещение</category>
+      <category id="676" parentId="1">Периферийные устройства</category>
+      <category id="681" parentId="1524">Бинокли</category>
+      <category id="682" parentId="1792">Сувениры и бизнес-подарки</category>
+      <category id="683" parentId="600">Штемпельная продукция</category>
+      <category id="684" parentId="600">Визитницы</category>
+      <category id="686" parentId="601">Информационные таблички, стенды, рамки, пиктограмм</category>
+      <category id="687" parentId="600">Корзины для бумаг</category>
+      <category id="688" parentId="600">Настольные покрытия</category>
+      <category id="689" parentId="600">Ножницы и канцелярские ножи</category>
+      <category id="717" parentId="1805">Беззеркальные камеры</category>
+      <category id="718" parentId="1805">Экшн-камеры</category>
+      <category id="772" parentId="1826">Прочая кухонная техника</category>
+      <category id="773" parentId="367">Паровые швабры</category>
+      <category id="775" parentId="1">Носители информации</category>
+      <category id="776" parentId="207">Аксессуары для смартфонов</category>
+      <category id="779">Техника для дома</category>
+      <category id="783" parentId="318">Бритье, стрижка волос и эпиляторы</category>
+      <category id="790" parentId="1805">Аксессуары для фото и видео</category>
+      <category id="791" parentId="1792">Письменные принадлежности</category>
+      <category id="795" parentId="1722">Школьные сумки</category>
+      <category id="797" parentId="1779">Строительные пылесосы</category>
+      <category id="799" parentId="600">Бейджи и аксессуары</category>
+      <category id="800" parentId="600">Клейкая лента</category>
+      <category id="802" parentId="600">Лотки и подставки</category>
+      <category id="810" parentId="600">Скрепки, кнопки, зажимы</category>
+      <category id="813" parentId="301">Капсульные кофеварки</category>
+      <category id="814" parentId="385">Встраиваемые морозильные камеры</category>
+      <category id="815" parentId="322">Морозильные лари</category>
+      <category id="816" parentId="111">LED панели</category>
+      <category id="819" parentId="82">Сканеры для документов</category>
+      <category id="820" parentId="1817">Алкотестеры</category>
+      <category id="821" parentId="1588">Моноблоки</category>
+      <category id="823" parentId="1500">Термопринтеры</category>
+      <category id="826" parentId="1816">Мониторы автомобильные</category>
+      <category id="827" parentId="944">Вешалки</category>
+      <category id="828" parentId="1828">Термосы и термокружки</category>
+      <category id="832" parentId="1423">Отдых и путешествия</category>
+      <category id="833" parentId="1273">Аксессуары для средств передвижения</category>
+      <category id="834" parentId="984">Виртуальные очки</category>
+      <category id="835" parentId="1803">Смарт-часы</category>
+      <category id="836" parentId="1803">Фитнес-браслеты</category>
+      <category id="837" parentId="1803">Аксессуары для смарт-часов</category>
+      <category id="838" parentId="1792">Изделия из бумаги</category>
+      <category id="839" parentId="1500">Бланки бухгалтерские и кассовая лента</category>
+      <category id="840" parentId="838">Блоки для записей</category>
+      <category id="841" parentId="838">Закладки самоклеящиеся</category>
+      <category id="843" parentId="838">Конверты почтовые</category>
+      <category id="844" parentId="838">Тетради</category>
+      <category id="845" parentId="838">Этикетки универсальные</category>
+      <category id="846" parentId="1792">Папки, файлы, системы архивации</category>
+      <category id="847" parentId="846">Аксессуары для архивации</category>
+      <category id="848" parentId="846">Разделители индексные</category>
+      <category id="849" parentId="846">Папки Дело</category>
+      <category id="850" parentId="846">Папки с арочным механизмом</category>
+      <category id="852" parentId="846">Папки-уголки</category>
+      <category id="853" parentId="846">Папки-портфели</category>
+      <category id="856" parentId="846">Папки на кнопке</category>
+      <category id="857" parentId="846">Папки-скоросшиватели</category>
+      <category id="858" parentId="846">Папки на кольцах</category>
+      <category id="859" parentId="846">Папки на молнии</category>
+      <category id="860" parentId="846">Папки на резинке</category>
+      <category id="861" parentId="846">Папки с зажимом</category>
+      <category id="862" parentId="846">Папки с прозрачными вкладышами</category>
+      <category id="863" parentId="846">Папки-планшеты</category>
+      <category id="865" parentId="791">Запасные стержни</category>
+      <category id="867" parentId="791">Ластики</category>
+      <category id="870" parentId="791">Ручки</category>
+      <category id="872" parentId="1722">Товары для творчества</category>
+      <category id="873" parentId="791">Карандаши</category>
+      <category id="874" parentId="791">Чертежные принадлежности</category>
+      <category id="875" parentId="791">Линейки</category>
+      <category id="876" parentId="944">Коврики под кресло</category>
+      <category id="877" parentId="791">Точилки для карандашей</category>
+      <category id="878" parentId="838">Ежедневники и записные книжки</category>
+      <category id="879" parentId="846">Короба архивные</category>
+      <category id="881" parentId="846">Файлы для бумаги</category>
+      <category id="883" parentId="600">Канцелярские мелочи</category>
+      <category id="884" parentId="600">Клей канцелярский</category>
+      <category id="885" parentId="600">Штрих-корректоры</category>
+      <category id="886" parentId="600">Резинки для денег</category>
+      <category id="887" parentId="600">Шкафчики и брелоки для ключей</category>
+      <category id="888" parentId="1815">Садовый инвентарь</category>
+      <category id="889" parentId="888">Грабли</category>
+      <category id="890" parentId="888">Лопаты</category>
+      <category id="891" parentId="888">Топоры</category>
+      <category id="892" parentId="888">Садово-посадочные инструменты</category>
+      <category id="893" parentId="888">Садовые пилы и ножи</category>
+      <category id="894" parentId="888">Секаторы и сучкорезы</category>
+      <category id="898" parentId="434">Культиваторы</category>
+      <category id="899" parentId="595">Силовые удлинители</category>
+      <category id="900" parentId="1">Аксессуары для ноутбуков и ПК</category>
+      <category id="901" parentId="1827">Измельчители</category>
+      <category id="902" parentId="1792">Кожгалантерея</category>
+      <category id="903" parentId="902">Клатчи</category>
+      <category id="904" parentId="902">Ключницы</category>
+      <category id="906" parentId="902">Кошельки</category>
+      <category id="907" parentId="902">Портмоне</category>
+      <category id="908" parentId="902">Портфели</category>
+      <category id="909" parentId="902">Ремни</category>
+      <category id="911" parentId="902">Кожаные сумки</category>
+      <category id="912" parentId="902">Обложки для паспортов</category>
+      <category id="913" parentId="902">Чехлы для карт</category>
+      <category id="914" parentId="682">Перочинные ножи</category>
+      <category id="915" parentId="682">Мультитулы</category>
+      <category id="916" parentId="682">Швейцарские карты</category>
+      <category id="917" parentId="559">Наборы кухонных ножей</category>
+      <category id="919" parentId="682">Точилки для ножей</category>
+      <category id="921" parentId="682">Аксессуары к ножам</category>
+      <category id="934" parentId="682">Расходные материалы Премиум</category>
+      <category id="935" parentId="1460">Аксессуары для автомобиля</category>
+      <category id="936" parentId="1305">Автомобильные провода, кабели, адаптеры</category>
+      <category id="937" parentId="1816">Антенны автомобильные</category>
+      <category id="940" parentId="435">Плиткорезы</category>
+      <category id="941" parentId="508">Расходные материалы для оргтехники</category>
+      <category id="944" parentId="508">Аксессуары для мебели и интерьера</category>
+      <category id="945" parentId="318">Товары для укладки</category>
+      <category id="947" parentId="318">Товары для красоты</category>
+      <category id="949" parentId="984">Игровая периферия</category>
+      <category id="952" parentId="559">Ножи кухонные</category>
+      <category id="953" parentId="559">Ножницы кухонные</category>
+      <category id="955" parentId="559">Аксессуары для кухни</category>
+      <category id="956" parentId="559">Противни, формы для выпечки</category>
+      <category id="959" parentId="559">Турки и гейзерные кофеварки</category>
+      <category id="962" parentId="1270">Аксессуары для квадрокоптеров</category>
+      <category id="963">Умный дом</category>
+      <category id="964" parentId="1835">Комплекты умного дома</category>
+      <category id="965" parentId="1835">Центры управления умным домом</category>
+      <category id="967" parentId="1835">Датчики для умного дома</category>
+      <category id="968" parentId="1835">Модули для умных устройств</category>
+      <category id="969" parentId="944">Аксессуары для кресел</category>
+      <category id="970" parentId="1273">Электросамокаты</category>
+      <category id="978" parentId="112">Портативные колонки</category>
+      <category id="979" parentId="1827">Кухонные машины</category>
+      <category id="980" parentId="434">Воздуходувки</category>
+      <category id="981" parentId="367">Стеклоочистители</category>
+      <category id="982" parentId="1825">Кассетные кондиционеры</category>
+      <category id="984">Товары для геймеров</category>
+      <category id="985" parentId="984">Комплектующие для игровых ПК</category>
+      <category id="987" parentId="1767">Машинки для удаления катышков</category>
+      <category id="991" parentId="1722">Канцтовары для школы</category>
+      <category id="992" parentId="1722">Аксессуары для начальной школы</category>
+      <category id="993" parentId="1795">Бумага и альбомы для рисования</category>
+      <category id="994" parentId="1722">Дневники</category>
+      <category id="995" parentId="1722">Обложки</category>
+      <category id="996" parentId="1722">Пеналы</category>
+      <category id="997" parentId="1722">Папка для тетрадей, труда, нот</category>
+      <category id="1002" parentId="1805">Компактные фотопринтеры</category>
+      <category id="1004" parentId="201">Кронштейны для телевизоров</category>
+      <category id="1005" parentId="201">Кронштейны для мониторов</category>
+      <category id="1006" parentId="201">Кронштейны для проекторов</category>
+      <category id="1007" parentId="201">Кронштейны прочие</category>
+      <category id="1008" parentId="12">Коммутационные и серверные шкафы</category>
+      <category id="1010" parentId="12">Шкафы электротехнические</category>
+      <category id="1011" parentId="1500">Сканеры штрих-кода</category>
+      <category id="1012" parentId="112">Саундбары</category>
+      <category id="1014" parentId="900">Подставки для ноутбуков</category>
+      <category id="1015" parentId="776">Держатели для смартфонов</category>
+      <category id="1016" parentId="1500">Терминалы сбора данных</category>
+      <category id="1018" parentId="902">Зонты</category>
+      <category id="1019" parentId="207">Аксессуары для наушников</category>
+      <category id="1020" parentId="111">Аксессуары для LFD-панелей</category>
+      <category id="1021" parentId="434">Мотоблоки</category>
+      <category id="1023" parentId="385">Прочая встраиваемая техника</category>
+      <category id="1025" parentId="1500">Детекторы банкнот</category>
+      <category id="1026" parentId="1500">Счетчики банкнот</category>
+      <category id="1027" parentId="1246">Прожекторы</category>
+      <category id="1029" parentId="400">Аксессуары для СКУД</category>
+      <category id="1030" parentId="400">Контроллеры и контрольные панели</category>
+      <category id="1031" parentId="400">Терминалы доступа</category>
+      <category id="1032" parentId="400">Считыватели</category>
+      <category id="1034" parentId="646">Компрессоры пневматические</category>
+      <category id="1035" parentId="646">Пневмопистолеты</category>
+      <category id="1036" parentId="646">Краскораспылители пневматические</category>
+      <category id="1037" parentId="646">Гайковерты пневматические</category>
+      <category id="1038" parentId="646">Дрели пневматические</category>
+      <category id="1039" parentId="646">Шлифмашины пневматические</category>
+      <category id="1040" parentId="646">Наборы пневматические</category>
+      <category id="1041" parentId="646">Аксессуары для пневмоинструментов</category>
+      <category id="1042" parentId="791">Текстовыделители</category>
+      <category id="1043" parentId="791">Маркеры</category>
+      <category id="1046" parentId="410">АКБ и ЗУ для инструмента</category>
+      <category id="1047" parentId="1046">Аккумуляторы для инструмента</category>
+      <category id="1048" parentId="1046">Зарядные устройства для аккумуляторов</category>
+      <category id="1049" parentId="508">Конференц-связь и call-центры</category>
+      <category id="1050" parentId="410">Лестницы и стремянки</category>
+      <category id="1054" parentId="322">Настольные плиты</category>
+      <category id="1055" parentId="1777">Аксессуары для сварки</category>
+      <category id="1056" parentId="1305">Видеорегистраторы с радар-детектором</category>
+      <category id="1057" parentId="435">Станки</category>
+      <category id="1058" parentId="682">Чехлы для ножей</category>
+      <category id="1060" parentId="410">Ручные инструменты</category>
+      <category id="1061" parentId="1817">Домкраты</category>
+      <category id="1062" parentId="112">Радиосистемы</category>
+      <category id="1066" parentId="508">Мебель офисная</category>
+      <category id="1067" parentId="122">Точки доступа</category>
+      <category id="1068" parentId="1871">Повторители беспроводного сигнала</category>
+      <category id="1069" parentId="1871">Межсетевые экраны</category>
+      <category id="1070" parentId="435">Штроборезы</category>
+      <category id="1071" parentId="1066">Стеллажи</category>
+      <category id="1072" parentId="434">Аэраторы и скарификаторы</category>
+      <category id="1073" parentId="434">Зернодробилки</category>
+      <category id="1074" parentId="1060">Паяльное оборудование</category>
+      <category id="1076" parentId="984">Sony PlayStation</category>
+      <category id="1077" parentId="515">Шланги</category>
+      <category id="1078" parentId="515">Соединительные элементы</category>
+      <category id="1079" parentId="515">Насадки для шлангов</category>
+      <category id="1080" parentId="515">Тележки и катушки для шлангов</category>
+      <category id="1081" parentId="515">Системы полива</category>
+      <category id="1082" parentId="508">Запчасти для оргтехники</category>
+      <category id="1091" parentId="1060">Аксессуары для пайки</category>
+      <category id="1093" parentId="675">Декоративное освещение и ночники</category>
+      <category id="1094" parentId="434">Мотобуры</category>
+      <category id="1097" parentId="675">Светодиодные ленты</category>
+      <category id="1100" parentId="776">SIM карты (тарифные планы)</category>
+      <category id="1101" parentId="1836">Умные лампы</category>
+      <category id="1102" parentId="1836">Умные розетки</category>
+      <category id="1103" parentId="1835">Умные замки</category>
+      <category id="1104" parentId="1827">Планетарные миксеры</category>
+      <category id="1123" parentId="1815">Отпугиватели и уничтожители</category>
+      <category id="1125" parentId="1271">Самокаты</category>
+      <category id="1157" parentId="434">Опрыскиватели</category>
+      <category id="1158" parentId="372">Кулеры для воды</category>
+      <category id="1196" parentId="832">Тренировки, игры и фитнес</category>
+      <category id="1235" parentId="832">Компасы и навигаторы</category>
+      <category id="1242" parentId="410">Аккумуляторный инструмент и техника</category>
+      <category id="1244" parentId="1500">Этикет-пистолеты</category>
+      <category id="1245" parentId="1500">Сейфы</category>
+      <category id="1246" parentId="1815">Уличное освещение</category>
+      <category id="1247" parentId="1248">Панели светодиодные</category>
+      <category id="1248" parentId="675">Техническое освещение</category>
+      <category id="1250" parentId="410">Электрика</category>
+      <category id="1253" parentId="1250">Аппараты защиты</category>
+      <category id="1254" parentId="1250">Изделия для электромонтажа</category>
+      <category id="1255" parentId="1250">Розетки</category>
+      <category id="1256" parentId="1250">Выключатели</category>
+      <category id="1260" parentId="1423">Отопление и климат</category>
+      <category id="1261" parentId="1260">Теплый пол и греющий кабель</category>
+      <category id="1270" parentId="1799">Квадрокоптеры и аксессуары</category>
+      <category id="1271" parentId="832">Велоспорт</category>
+      <category id="1273" parentId="1799">Электротранспорт</category>
+      <category id="1280" parentId="1799">Рации</category>
+      <category id="1287" parentId="675">Потолочные светильники и люстры</category>
+      <category id="1288" parentId="434">Двигатели для садовой техники</category>
+      <category id="1289" parentId="1250">Реле</category>
+      <category id="1291" parentId="1250">Рамки для розеток и выключателей</category>
+      <category id="1305" parentId="278">Автоэлектроника</category>
+      <category id="1355" parentId="410">Ванна и сантехника</category>
+      <category id="1381" parentId="1060">Строительные ножи и лезвия</category>
+      <category id="1419" parentId="400">Системы оповещения</category>
+      <category id="1423">Дом, дача и авто</category>
+      <category id="1439" parentId="1423">Хозтовары</category>
+      <category id="1458" parentId="1460">Автолампы</category>
+      <category id="1460" parentId="1817">Запчасти и аксессуары</category>
+      <category id="1479" parentId="1460">Автохимия</category>
+      <category id="1488" parentId="1060">Пистолеты для герметика и пены</category>
+      <category id="1492" parentId="410">Сумки и ящики для инструментов</category>
+      <category id="1494" parentId="1779">Стружкоотсосы</category>
+      <category id="1495" parentId="1460">Масла моторные</category>
+      <category id="1496" parentId="1060">Гаечные ключи</category>
+      <category id="1497" parentId="1060">Шарнирно-губцевый инструмент</category>
+      <category id="1498" parentId="1060">Монтажно-крепежный инструмент</category>
+      <category id="1499" parentId="1060">Столярно-слесарный инструмент</category>
+      <category id="1500" parentId="508">Торговое и банковское оборудование</category>
+      <category id="1504" parentId="1500">Контрольно-кассовая техника</category>
+      <category id="1505" parentId="1500">Весы для магазинов</category>
+      <category id="1506" parentId="1500">Аксессуары для торгового оборудования</category>
+      <category id="1507" parentId="1500">Инкассация и опломбирование</category>
+      <category id="1517" parentId="1791">Мотопомпы</category>
+      <category id="1518" parentId="1791">Аксессуары для насосов</category>
+      <category id="1521" parentId="1423">Видеонаблюдение</category>
+      <category id="1524" parentId="1423">Приборы для наблюдения</category>
+      <category id="1525" parentId="1423">Домофония</category>
+      <category id="1527" parentId="1242">Аккумуляторные отвертки</category>
+      <category id="1528" parentId="1248">Освещение для растений</category>
+      <category id="1532" parentId="1271">Аксессуары для велосипедов</category>
+      <category id="1533" parentId="675">Трековые системы</category>
+      <category id="1539" parentId="1524">Телескопы</category>
+      <category id="1540" parentId="1524">Микроскопы</category>
+      <category id="1545" parentId="207">Сотовые телефоны</category>
+      <category id="1546" parentId="675">Настенные светильники и бра</category>
+      <category id="1548" parentId="675">Точечные светильники и споты</category>
+      <category id="1550" parentId="1837">Умные гаджеты</category>
+      <category id="1581" parentId="1524">Аксессуары для оптических приборов</category>
+      <category id="1588" parentId="1">Компьютеры и моноблоки</category>
+      <category id="1589" parentId="25">Платформы</category>
+      <category id="1595" parentId="508">Готовые решения</category>
+      <category id="1600" parentId="1460">Запчасти автомобильные</category>
+      <category id="1614" parentId="1836">Умные светильники</category>
+      <category id="1615" parentId="435">Бетономешалки</category>
+      <category id="1617" parentId="675">Комплектующие для светильников</category>
+      <category id="1669" parentId="947">Косметические зеркала</category>
+      <category id="1675" parentId="1836">Умные реле и модули управления</category>
+      <category id="1676" parentId="1836">Умные выключатели</category>
+      <category id="1689" parentId="846">Папки адресные</category>
+      <category id="1690" parentId="600">Рамки для сертификатов и дипломов</category>
+      <category id="1692" parentId="1836">Умные светодиодные ленты</category>
+      <category id="1694" parentId="1835">Умные пульты и кнопки</category>
+      <category id="1695" parentId="1837">Умные карнизы, шторы и комплектующие</category>
+      <category id="1708" parentId="1870">Майнеры</category>
+      <category id="1709" parentId="595">Вибротехника</category>
+      <category id="1712" parentId="400">Досмотровое оборудование</category>
+      <category id="1713" parentId="400">Турникеты, калитки и ограждения</category>
+      <category id="1714" parentId="400">Шлагбаумы и комплекты шлагбаумов</category>
+      <category id="1715" parentId="400">Автоматика для ворот</category>
+      <category id="1717" parentId="1795">Цветная бумага и картон</category>
+      <category id="1722" parentId="1792">Товары для школы</category>
+      <category id="1725" parentId="1792">Товары для художников</category>
+      <category id="1726" parentId="1725">Краски для рисования</category>
+      <category id="1727" parentId="1725">Кисти для рисования</category>
+      <category id="1728" parentId="1725">Мелки и пастель</category>
+      <category id="1732" parentId="1248">Светильники ЖКХ</category>
+      <category id="1733" parentId="1246">Садово-парковое освещение</category>
+      <category id="1734" parentId="1741">Коллекционные фигурки</category>
+      <category id="1736" parentId="832">Рюкзаки на все случаи жизни</category>
+      <category id="1740" parentId="1736">Рюкзаки</category>
+      <category id="1741" parentId="984">Игровой мерч</category>
+      <category id="1743" parentId="1066">Шкафы</category>
+      <category id="1745" parentId="1066">Металлическая мебель</category>
+      <category id="1747" parentId="1066">Стулья</category>
+      <category id="1748" parentId="61">Аксессуары для IP-телефонии</category>
+      <category id="1749" parentId="1595">Кабинеты руководителя</category>
+      <category id="1750" parentId="1595">Домашний офис</category>
+      <category id="1751" parentId="1595">Мебель и оборудование для переговорных</category>
+      <category id="1752" parentId="1595">Мебель для персонала</category>
+      <category id="1754" parentId="1066">Комплекты мебели</category>
+      <category id="1762" parentId="601">Демосистемы</category>
+      <category id="1763" parentId="601">Флипчарты</category>
+      <category id="1764" parentId="1795">Бумага для флипчартов</category>
+      <category id="1765" parentId="601">Доски демонстрационные</category>
+      <category id="1766" parentId="601">Аксессуары для досок</category>
+      <category id="1767" parentId="779">Техника для ухода за одеждой</category>
+      <category id="1772" parentId="663">Ирригаторы</category>
+      <category id="1776" parentId="1423">Товары для детей</category>
+      <category id="1777" parentId="410">Сварочное оборудование</category>
+      <category id="1778" parentId="1242">Аккумуляторный садовый инструмент</category>
+      <category id="1779" parentId="410">Оборудование для уборки</category>
+      <category id="1786" parentId="410">Измерительная техника</category>
+      <category id="1788" parentId="1786">Лазерные уровни (нивелиры)</category>
+      <category id="1789" parentId="1786">Дальномеры</category>
+      <category id="1790" parentId="1786">Аксессуары для измерительной техники</category>
+      <category id="1791" parentId="1815">Насосы, помпы и аксессуары</category>
+      <category id="1792">Канцтовары</category>
+      <category id="1795" parentId="1792">Бумага</category>
+      <category id="1796" parentId="1815">Минимойки и аксессуары</category>
+      <category id="1797" parentId="1871">Инжекторы PoE</category>
+      <category id="1799">Смарт-часы, гаджеты и фото</category>
+      <category id="1800" parentId="434">Дровоколы</category>
+      <category id="1801" parentId="319">Блоки питания для серверов</category>
+      <category id="1802" parentId="12">Блоки распределения питания</category>
+      <category id="1803" parentId="1799">Смарт-часы и аксессуары</category>
+      <category id="1805" parentId="1799">Фототехника</category>
+      <category id="1808" parentId="1799">Портативная техника</category>
+      <category id="1809" parentId="1799">Умные и портативные колонки</category>
+      <category id="1810" parentId="941">Блоки фотобарабанов</category>
+      <category id="1811" parentId="1060">Отвертки</category>
+      <category id="1812" parentId="1060">Наборы торцевых головок</category>
+      <category id="1813" parentId="1060">Резьбо-нарезной инструмент</category>
+      <category id="1814" parentId="1825">Аксессуары для кондиционеров</category>
+      <category id="1815" parentId="1423">Товары для дачи и сада</category>
+      <category id="1816" parentId="278">Автозвук и мультимедиа</category>
+      <category id="1817" parentId="278">Комфорт в дороге</category>
+      <category id="1818" parentId="301">Капучинаторы</category>
+      <category id="1821" parentId="941">Пластик для 3D-печати</category>
+      <category id="1822">Техника для кухни</category>
+      <category id="1823" parentId="779">Стиральные, сушильные машины</category>
+      <category id="1824" parentId="779">Очистители, увлажнители воздуха</category>
+      <category id="1825" parentId="779">Кондиционеры, вентиляторы</category>
+      <category id="1826" parentId="1822">Приготовление блюд</category>
+      <category id="1827" parentId="1822">Блендеры, миксеры, измельчители</category>
+      <category id="1828" parentId="1822">Приготовление напитков</category>
+      <category id="1829" parentId="1822">Приготовление десертов</category>
+      <category id="1830" parentId="1822">Очистка воды для кухни</category>
+      <category id="1831" parentId="1822">Водонагреватели для кухни</category>
+      <category id="1832" parentId="318">Экология дома</category>
+      <category id="1833" parentId="318">Смарт-часы и фитнес-браслеты</category>
+      <category id="1834" parentId="1786">Уровни, угломеры, уклономеры</category>
+      <category id="1835" parentId="963">Безопасность и управление</category>
+      <category id="1836" parentId="963">Умное освещение и электрика</category>
+      <category id="1837" parentId="963">Умная техника для дома</category>
+      <category id="1838" parentId="963">Умная климатическая техника</category>
+      <category id="1839" parentId="963">Умная техника для кухни</category>
+      <category id="1841" parentId="1849">Яндекс</category>
+      <category id="1843" parentId="1849">Xiaomi</category>
+      <category id="1844" parentId="1849">Sber</category>
+      <category id="1845" parentId="1849">Google</category>
+      <category id="1846" parentId="1849">Apple HomeKit</category>
+      <category id="1847" parentId="1849">Amazon Alexa</category>
+      <category id="1848" parentId="1849">Aqara</category>
+      <category id="1849" parentId="963">Экосистемы</category>
+      <category id="1850" parentId="1786">Тепловизоры, пирометры, термометры</category>
+      <category id="1851" parentId="1786">Приборы неразрушающего контроля</category>
+      <category id="1852" parentId="1849">VK</category>
+      <category id="1853" parentId="1786">Приборы контроля окружающей среды</category>
+      <category id="1854" parentId="1786">Мультиметры, мегаомметры</category>
+      <category id="1855" parentId="1786">Тестеры</category>
+      <category id="1857" parentId="1423">Уход за растениями</category>
+      <category id="1858" parentId="595">Аксессуары для силовой техники</category>
+      <category id="1859" parentId="39">Вентиляторы для корпуса</category>
+      <category id="1860" parentId="39">Радиаторы для SSD M.2</category>
+      <category id="1861" parentId="559">Чайники для плиты</category>
+      <category id="1862" parentId="559">Френч-прессы и заварочные чайники</category>
+      <category id="1863" parentId="559">Мельницы для перца и соли</category>
+      <category id="1864" parentId="1786">Детекторы металла, проводки</category>
+      <category id="1865" parentId="39">Системы охлаждения процессора</category>
+      <category id="1866" parentId="1786">Штангенциркули, штангенглубиномеры</category>
+      <category id="1867" parentId="1786">Клещи токоизмерительные</category>
+      <category id="1868" parentId="1786">Рулетки, мерные ленты</category>
+      <category id="1869" parentId="1786">Микрометры, индикаторы</category>
+      <category id="1870" parentId="1">Майнеры и криптокошельки</category>
+      <category id="1871" parentId="122">Аксессуары для сетевого оборудования</category>
+      <category id="1872" parentId="595">Бензорезы</category>
+      <category id="1873" parentId="984">Стриминг</category>
+      <category id="1876" parentId="1260">Котлы</category>
+      <category id="1877" parentId="1521">Блоки питания для видеонаблюдения</category>
+      <category id="1878" parentId="82">3D принтеры</category>
+      <category id="100013" parentId="1588">Системные блоки</category>
+      <category id="100038" parentId="1805">Карты памяти</category>
+      <category id="100045" parentId="1829">Вафельницы</category>
+      <category id="100076" parentId="776">Портативные колонки</category>
+      <category id="100080" parentId="947">Гидромассажные ванночки для ног</category>
+      <category id="100094" parentId="555">Кабели для ТВ и аудио-видео</category>
+      <category id="100105" parentId="82">Офисная эргономика</category>
+      <category id="100137" parentId="112">Колонки для компьютера</category>
+      <category id="100140" parentId="941">Картриджи</category>
+      <category id="100144" parentId="941">Бумага</category>
+      <category id="100147" parentId="941">Опции для копиров</category>
+      <category id="100169" parentId="949">Игровые мыши</category>
+      <category id="100170" parentId="949">Игровые клавиатуры</category>
+      <category id="100171" parentId="949">Игровые коврики</category>
+      <category id="100172" parentId="949">Игровые гарнитуры</category>
+      <category id="100173" parentId="555">Стабилизаторы напряжения бытовые</category>
+      <category id="100186" parentId="322">Холодильники для дачи</category>
+      <category id="100198" parentId="322">Винные шкафы</category>
+      <category id="100206" parentId="985">Игровые блоки питания</category>
+      <category id="100207" parentId="985">Игровые видеокарты</category>
+      <category id="100208" parentId="985">Игровые материнские платы</category>
+      <category id="100209" parentId="985">Игровые процессоры</category>
+      <category id="100211" parentId="984">Кресла игровые</category>
+      <category id="100216" parentId="122">Wi-Fi адаптеры</category>
+      <category id="100220" parentId="783">Триммеры OneBlade</category>
+      <category id="100226" parentId="555">Батарейки</category>
+      <category id="100235" parentId="111">Наушники</category>
+      <category id="100244" parentId="944">Офисная эргономика</category>
+      <category id="100245" parentId="1049">Микрофоны для конференций</category>
+      <category id="100246" parentId="1049">Веб-камеры для конференций</category>
+      <category id="100247" parentId="1049">Устройства громкой связи для конференций</category>
+      <category id="100248" parentId="1049">Презентеры</category>
+      <category id="100249" parentId="1049">Наушники для колл-центров</category>
+      <category id="100265" parentId="82">Принтеры</category>
+      <category id="100271" parentId="422">Отрезные диски и круги</category>
+      <category id="100272" parentId="422">Пильные диски</category>
+      <category id="100273" parentId="422">Фрезы по дереву</category>
+      <category id="100274" parentId="422">Алмазные диски</category>
+      <category id="100275" parentId="422">Абразивные диски</category>
+      <category id="100283" parentId="1046">Аккумуляторы для садовой техники</category>
+      <category id="100284" parentId="82">Проекторы</category>
+      <category id="100295" parentId="12">Сетевые фильтры</category>
+      <category id="100301" parentId="776">Карты памяти</category>
+      <category id="100324" parentId="783">Машинки для стрижки волос</category>
+      <category id="100325" parentId="1242">Аккумуляторные перфораторы</category>
+      <category id="100330" parentId="356">Тепловые пушки</category>
+      <category id="100331" parentId="356">Тепловые завесы</category>
+      <category id="100478" parentId="1589">Серверные платформы</category>
+      <category id="100481" parentId="1076">Приставки PlayStation</category>
+      <category id="100482" parentId="984">Столы для гейминга</category>
+      <category id="100496" parentId="675">Умные лампы</category>
+      <category id="100497" parentId="675">Умные светильники</category>
+      <category id="100512" parentId="984">Игровые ноутбуки</category>
+      <category id="100526" parentId="1803">Детские смарт-часы</category>
+      <category id="100534" parentId="991">Ручки</category>
+      <category id="100535" parentId="991">Карандаши</category>
+      <category id="100536" parentId="991">Ластики</category>
+      <category id="100537" parentId="991">Линейки</category>
+      <category id="100538" parentId="991">Точилки для карандашей</category>
+      <category id="100539" parentId="991">Ножницы</category>
+      <category id="100540" parentId="991">Клей канцелярский</category>
+      <category id="100541" parentId="991">Текстовыделители</category>
+      <category id="100542" parentId="991">Фломастеры</category>
+      <category id="100543" parentId="991">Цветная бумага</category>
+      <category id="100545" parentId="1736">Городские рюкзаки</category>
+      <category id="100546" parentId="1736">Спортивные рюкзаки</category>
+      <category id="100548" parentId="1736">Школьные рюкзаки</category>
+      <category id="100549" parentId="1736">Рюкзаки для ноутбуков</category>
+      <category id="100550" parentId="1736">Кожаные рюкзаки</category>
+      <category id="100552" parentId="1745">Стеллажи металлические</category>
+      <category id="100557" parentId="1752">Настольные покрытия</category>
+      <category id="100559" parentId="1750">Настольные покрытия</category>
+      <category id="100560" parentId="1752">Корзины для бумаг</category>
+      <category id="100561" parentId="1749">Корзины для бумаг</category>
+      <category id="100563" parentId="1749">Сейфы</category>
+      <category id="100564" parentId="1749">Коврики под кресло</category>
+      <category id="100565" parentId="1750">Коврики под кресло</category>
+      <category id="100567" parentId="1749">Офисная эргономика</category>
+      <category id="100568" parentId="1751">Экраны для проекторов</category>
+      <category id="100569" parentId="1751">Презентеры</category>
+      <category id="100570" parentId="1751">Веб-камеры для конференций</category>
+      <category id="100571" parentId="1751">Демооборудование</category>
+      <category id="100603" parentId="984">Игровые мониторы</category>
+      <category id="100606" parentId="1833">Смарт-часы</category>
+      <category id="100622" parentId="1832">Увлажнители воздуха</category>
+      <category id="100638" parentId="82">МФУ</category>
+      <category id="100639" parentId="1778">Аккумуляторные газонокосилки</category>
+      <category id="100640" parentId="1778">Аккумуляторные снегоуборщики</category>
+      <category id="100641" parentId="367">Роботы-пылесосы</category>
+      <category id="100642" parentId="963">Умные колонки</category>
+      <category id="100645" parentId="1722">Школьные рюкзаки</category>
+      <category id="100647" parentId="1799">Микрофоны</category>
+      <category id="100648" parentId="1803">Женские смарт-часы</category>
+      <category id="100649" parentId="1803">Мужские смарт-часы</category>
+      <category id="100651" parentId="1809">Беспроводные колонки</category>
+      <category id="100652" parentId="1815">Снегоуборщики</category>
+      <category id="100653" parentId="319">Серверные шкафы</category>
+      <category id="100656" parentId="416">Виброшлифмашины</category>
+      <category id="100657" parentId="416">Ленточные шлифмашины</category>
+      <category id="100658" parentId="416">Реноваторы (многофункциональный инструмент)</category>
+      <category id="100659" parentId="416">Полировальные машины</category>
+      <category id="100661" parentId="416">Эксцентриковые шлифмашины</category>
+      <category id="100662" parentId="416">Углошлифовальные машины</category>
+      <category id="100664" parentId="434">Бензопилы</category>
+      <category id="100665" parentId="434">Электропилы</category>
+      <category id="100667" parentId="1808">Внешние аккумуляторы (Power Bank)</category>
+      <category id="100668" parentId="278">Видеорегистраторы</category>
+      <category id="100670" parentId="322">Холодильные витрины</category>
+      <category id="100671" parentId="1500">Холодильные витрины</category>
+      <category id="100674" parentId="1260">Газовые водонагреватели</category>
+      <category id="100675" parentId="1260">Электрические водонагреватели</category>
+      <category id="100677" parentId="1815">Бензопилы</category>
+      <category id="100678" parentId="945">Стайлеры</category>
+      <category id="100682" parentId="945">Выпрямители</category>
+      <category id="100683" parentId="945">Плойки для волос</category>
+      <category id="100684" parentId="1823">Полноразмерные стиральные машины</category>
+      <category id="100685" parentId="1823">Узкие стиральные машины</category>
+      <category id="100686" parentId="1823">Стиральные машины с вертикальной загрузкой</category>
+      <category id="100687" parentId="1823">Стиральные машины с сушкой</category>
+      <category id="100688" parentId="367">Вертикальные пылесосы</category>
+      <category id="100689" parentId="367">Моющие пылесосы</category>
+      <category id="100690" parentId="322">Стиральные машины</category>
+      <category id="100691" parentId="322">Сушильные машины</category>
+      <category id="100692" parentId="385">Встраиваемые вытяжки</category>
+      <category id="100693" parentId="385">Встраиваемые стиральные машины</category>
+      <category id="100694" parentId="1826">Микроволновые печи</category>
+      <category id="100695" parentId="1828">Чайники электрические</category>
+      <category id="100698" parentId="1831">Электрические водонагреватели</category>
+      <category id="100699" parentId="1831">Газовые водонагреватели</category>
+      <category id="100700" parentId="1831">Проточные водонагреватели</category>
+      <category id="100701" parentId="1830">Фильтры для воды</category>
+      <category id="100702" parentId="1830">Картриджи для фильтров</category>
+      <category id="100703" parentId="1830">Кулеры для воды</category>
+      <category id="100704" parentId="1833">Детские смарт-часы</category>
+      <category id="100705" parentId="1833">Мужские смарт-часы</category>
+      <category id="100706" parentId="1833">Женские смарт-часы</category>
+      <category id="100707" parentId="1833">Фитнес-браслеты</category>
+      <category id="100708" parentId="1833">Аксессуары для смарт-часов</category>
+      <category id="100709" parentId="1832">Воздухоочистители</category>
+      <category id="100710" parentId="1832">Осушители воздуха</category>
+      <category id="100711" parentId="838">Блокноты</category>
+      <category id="100712" parentId="1835">Wi-Fi камеры</category>
+      <category id="100713" parentId="1837">Роботы-пылесосы</category>
+      <category id="100714" parentId="1838">Умные кондиционеры (сплит-системы)</category>
+      <category id="100715" parentId="1839">Умные чайники</category>
+      <category id="100717" parentId="1722">Тетради для школы</category>
+      <category id="100718" parentId="1841">Умные колонки с Алисой</category>
+      <category id="100719" parentId="1852">Умные колонки с Марусей</category>
+      <category id="100720" parentId="1844">Умные колонки с Салютом</category>
+      <category id="100722" parentId="1843">Умные камеры видеонаблюдения для Xiaomi Mi Home</category>
+      <category id="100723" parentId="1845">Умные телевизоры с Google Assistant</category>
+      <category id="100724" parentId="1846">Умные телевизоры с Apple HomeKit</category>
+      <category id="100725" parentId="1847">Умные телевизоры с Amazon Alexa</category>
+      <category id="100726" parentId="1808">Беспроводные наушники</category>
+      <category id="100727" parentId="945">Фен-щетки</category>
+      <category id="100728" parentId="25">Кабели и переходники для компьютера</category>
+      <category id="100729" parentId="1588">Серверы</category>
+      <category id="100730" parentId="1815">Воздуходувки</category>
+      <category id="100732" parentId="322">Холодильники Side-by-Side</category>
+      <category id="100733" parentId="322">Двухкамерные холодильники</category>
+      <category id="100734" parentId="1767">Ручные отпариватели</category>
+      <category id="100735" parentId="1767">Вертикальные отпариватели</category>
+      <category id="100736" parentId="984">Игровые компьютеры</category>
+      <category id="100737" parentId="984">Игровые телевизоры</category>
+      <category id="100738" parentId="1873">Карты видеозахвата</category>
+      <category id="100739" parentId="985">Игровые корпуса</category>
+    </categories>
+    <delivery-options />
+    <offers>
+      <offer id="2049336" available="true">
+        <url>https://www.citilink.ru/product/noutbuk-osio-focusline-f150a-001-ryzen-5-5500u-16gb-ssd512gb-15-6-fhd-2049336/</url>
+        <price>48990</price>
+        <categoryId>3</categoryId>
+        <picture>https://cdn.citilink.ru/4Tv0KvC2CFAGfKBbuy2erBdGCISxxzxpm9KWyxfuIyQ/background:255:255:255/extend:1/gravity:sm/height:500/resizing_type:fit/width:500/plain/items/2049336_v01_b.jpg</picture>
+        <delivery>true</delivery>
+        <name>Ноутбук OSIO FocusLine F150a-010 15.6", 2023, IPS, AMD Ryzen 5 5500U 2.1ГГц, 6-ядерный, 16ГБ DDR4, 512ГБ SSD, AMD Radeon, без операционной системы, серый</name>
+        <vendor>OSIO</vendor>
+        <description>экран: 15.6 "; разрешение экрана: 1920х1080; тип матрицы: IPS; частота: 2.1 ГГц (4 ГГц, в режиме Turbo); AMD Radeon; без операционной системы; память: 16 ГБ, DDR4, 3200 МГц; SSD: 512 ГБ</description>
+        <param name="Семейство">FocusLine</param>
+        <param name="Модель">F150a-010</param>
+        <param name="Диагональ экрана в дюймах">15.6</param>
+        <param name="Разр-ние экрана, гор-ное">1920</param>
+        <param name="Разр-ние экрана, верт-ное">1080</param>
+        <param name="Процессор, производитель">AMD</param>
+        <param name="Процессор, серия">Ryzen 5</param>
+        <param name="Процессор, модель">5500U</param>
+        <param name="Процессор, частота">2.1</param>
+        <param name="Объем оперативной памяти">16</param>
+        <param name="Серия граф. контроллера">AMD Radeon</param>
+        <param name="Операционная система">без ОС</param>
+        <param name="Порты USB 2.0 (Type-A)">1</param>
+        <param name="Поддержка технологии Wi-Fi">ДА</param>
+        <param name="Поддержка технологии Bluetooth">ДА</param>
+        <param name="Веб-камера">ДА</param>
+        <param name="Разъем HDMI">ДА</param>
+        <param name="Цветовое решение">серый</param>
+        <param name="Ширина товара">357.7</param>
+        <param name="Вес товара">1.7</param>
+        <param name="Высота (максимальная)">18</param>
+        <param name="Глубина товара">228.6</param>
+        <param name="Тип графического контроллера">интегрированный</param>
+        <param name="Максимальное время работы от батареи">8</param>
+        <param name="Объем SSD">512</param>
+        <param name="Количество SSD">1</param>
+        <param name="Тип">Ноутбук</param>
+        <param name="Ёмкость батареи (mAh)">6000</param>
+        <param name="Дополнительно в комплекте">Зарядное устройство, документация</param>
+        <param name="Порты USB 3.0 (Type-A)">2</param>
+        <param name="Количество ядер процессора">6-ядерный</param>
+        <param name="Тип оперативной памяти">DDR4</param>
+        <param name="Частота оперативной памяти">3200</param>
+        <param name="Макс. объем оперативной памяти">64</param>
+        <param name="Стандарт Wi-Fi">802.11 a/b/g/n/ac</param>
+        <param name="Версия Bluetooth">v5.0</param>
+        <param name="Разрешение веб-камеры">1.9</param>
+        <param name="Акустическая система">стереодинамики</param>
+        <param name="Встроенный кард-ридер">ДА</param>
+        <param name="Поддержка карт памяти">microSD</param>
+        <param name="Цвет клавиатуры ноутбука">черный</param>
+        <param name="Материал корпуса">пластик/алюминий</param>
+        <param name="Цифровой блок клавиатуры">ДА</param>
+        <param name="Поверхность экрана">матовая</param>
+        <param name="Разъем наушники/микрофон">ДА</param>
+        <param name="Подсветка клавиш клавиатуры">ДА</param>
+        <param name="Энергоемкость батареи (Wh)">45.6</param>
+        <param name="Напряжение батареи (V)">7.6</param>
+        <param name="Тип батареи">Li-Pol</param>
+        <param name="Процессор, частота (в режиме turbo)">4</param>
+        <param name="Тип матрицы">IPS</param>
+        <param name="Произведено в РФ">ДА</param>
+        <param name="PartNumber/Артикул Производителя">F150A-010</param>
+        <param name="Разрешение">1920x1080</param>
+        <param name="Процессор ">AMD Ryzen 5 5500U 2.1ГГц</param>
+        <param name="Оперативная память ">16ГБ DDR4 3200МГц</param>
+        <param name="Видеокарта ">AMD Radeon</param>
+        <param name="Операционная система ноутбука">без ОС</param>
+        <param name="Батарея ">Li-Pol 6000 mAh</param>
+        <param name="Размеры корпуса ">357.7x228.6x18мм</param>
+        <param name="Разрешение матрицы экрана">FHD</param>
+        <param name="Порты USB 3.0 (Type-C)">2</param>
+        <param name="Частота обновления">60</param>
+        <param name="Год релиза">2023</param>
+        <param name="Количество слотов под модули памяти">2</param>
+        <param name="Тип матрицы (как указывает производитель)">IPS</param>
+        <param name="Яркость экрана">300</param>
+        <param name="Возможность апгрейда оперативной памяти">ДА</param>
+        <param name="Высота упаковки (ед)">0.31</param>
+        <param name="Габариты упаковки (ед) ДхШхВ">0.48x0.08x0.31</param>
+        <param name="Длина упаковки (ед)">0.48</param>
+        <param name="Ширина упаковки (ед)">0.08</param>
+        <param name="Вес упаковки (ед)">1.7</param>
+        <param name="Объем упаковки (ед)">0.011904</param>
+        <param name="Объем кэша L2">3</param>
+        <param name="Объем кэша L3">8</param>
+        <param name="Устройства позиционирования">Touchpad</param>
+        <param name="Ядро процессора">Lucienne</param>
+        <param name="Клавиатура с русскими буквами">ДА</param>
+        <param name="Цвет подсветки клавиатуры">белая</param>
+        <param name="Цветовой охват NTSC">45</param>
+        <param name="Выходная мощность адаптера питания">65</param>
+        <param name="Версия HDMI">2.1</param>
+        <param name="Количество высокопроизводительных ядер">6</param>
+        <param name="Количество динамиков">2</param>
+        <param name="Количество микрофонов">2</param>
+        <param name="Мощность одного динамика">2</param>
+        <param name="Плотность пикселей">141</param>
+        <param name="Соотношение сторон">16:9</param>
+        <param name="Угол обзора">170-178</param>
+        <param name="Функция быстрой зарядки">ДА</param>
+        <param name="Цвет (маркетинговый)">Space Gray</param>
+        <param name="Цвет для фильтра">серый</param>
+        <param name="Для работы">ДА</param>
+        <param name="Для учебы">ДА</param>
+        <param name="Интерфейс первого разъема установленного SSD">PCI-E 3.0 x4</param>
+        <param name="Количество занятых слотов оперативной памяти">1</param>
+        <param name="Количество разъемов жесткого диска">1</param>
+        <param name="Количество свободных слотов оперативной памяти">1</param>
+        <param name="Максимальное число потоков">12</param>
+        <param name="Серия (для фильтра Ситилинка)">OSIO FocusLine</param>
+        <param name="Возможность зарядки от Type-C (USB Power Delivery)">ДА</param>
+        <param name="Возможность передачи видео через USB Type-C">ДА</param>
+        <param name="Мак. скорость передачи данных (Type-A)">5</param>
+        <param name="Мак. скорость передачи данных (Type-C)">5</param>
+        <param name="Материал для фильтра Ситилинк">металл</param>
+        <param name="Общее количество портов USB Type-A">3</param>
+        <param name="Общее количество портов USB Type-С">2</param>
+        <param name="Техпроцесс / литография">7 нм</param>
+        <param name="Язык клавиатуры">русский/английский</param>
+        <param name="Разрешение (для фильтра Ситилинк)">FULL HD</param>
+        <param name="Процессор (для автозаполнения)">AMD Ryzen 5 5500U</param>
+        <param name="Объем первого SSD">512</param>
+        <param name="Жесткие диски (подбор)">ssd512</param>
+      </offer>
+      <offer id="2049343" available="true">
+        <url>https://www.citilink.ru/product/noutbuk-osio-focusline-f150a-011-ryzen-5-5500u-16gb-ssd512gb-15-6-w11h-2049343/</url>
+        <price>44990</price>
+        <categoryId>3</categoryId>
+        <picture>https://cdn.citilink.ru/0ugQE6j5C7kGVnC7cCVOis_snpoo0ZOAq8gb4O5ZX7w/background:255:255:255/extend:1/gravity:sm/height:500/resizing_type:fit/width:500/plain/items/2049343_v01_b.jpg</picture>
+        <delivery>true</delivery>
+        <name>Ноутбук OSIO FocusLine F150a-011 15.6", 2023, IPS, AMD Ryzen 5 5500U 2.1ГГц, 6-ядерный, 16ГБ DDR4, 512ГБ SSD, AMD Radeon, Windows 11 Home, серый</name>
+        <vendor>OSIO</vendor>
+        <description>экран: 15.6 "; разрешение экрана: 1920х1080; тип матрицы: IPS; частота: 2.1 ГГц (4 ГГц, в режиме Turbo); AMD Radeon; Windows 11 Home; память: 16 ГБ, DDR4, 3200 МГц; SSD: 512 ГБ</description>
+        <param name="Семейство">FocusLine</param>
+        <param name="Модель">F150a-011</param>
+        <param name="Диагональ экрана в дюймах">15.6</param>
+        <param name="Разр-ние экрана, гор-ное">1920</param>
+        <param name="Разр-ние экрана, верт-ное">1080</param>
+        <param name="Процессор, производитель">AMD</param>
+        <param name="Процессор, серия">Ryzen 5</param>
+        <param name="Процессор, модель">5500U</param>
+        <param name="Процессор, частота">2.1</param>
+        <param name="Объем оперативной памяти">16</param>
+        <param name="Серия граф. контроллера">AMD Radeon</param>
+        <param name="Операционная система">Windows 11</param>
+        <param name="Порты USB 2.0 (Type-A)">1</param>
+        <param name="Поддержка технологии Wi-Fi">ДА</param>
+        <param name="Поддержка технологии Bluetooth">ДА</param>
+        <param name="Веб-камера">ДА</param>
+        <param name="Разъем HDMI">ДА</param>
+        <param name="Цветовое решение">серый</param>
+        <param name="Ширина товара">357.7</param>
+        <param name="Вес товара">1.7</param>
+        <param name="Высота (максимальная)">18</param>
+        <param name="Глубина товара">228.6</param>
+        <param name="Тип графического контроллера">интегрированный</param>
+        <param name="Максимальное время работы от батареи">8</param>
+        <param name="Объем SSD">512</param>
+        <param name="Количество SSD">1</param>
+        <param name="Тип">Ноутбук</param>
+        <param name="Ёмкость батареи (mAh)">6000</param>
+        <param name="Дополнительно в комплекте">Зарядное устройство, документация</param>
+        <param name="Порты USB 3.0 (Type-A)">2</param>
+        <param name="Количество ядер процессора">6-ядерный</param>
+        <param name="Тип оперативной памяти">DDR4</param>
+        <param name="Частота оперативной памяти">3200</param>
+        <param name="Макс. объем оперативной памяти">64</param>
+        <param name="Стандарт Wi-Fi">802.11 a/b/g/n/ac</param>
+        <param name="Версия Bluetooth">v5.0</param>
+        <param name="Разрешение веб-камеры">1.9</param>
+        <param name="Акустическая система">стереодинамики</param>
+        <param name="Встроенный кард-ридер">ДА</param>
+        <param name="Поддержка карт памяти">microSD</param>
+        <param name="Цвет клавиатуры ноутбука">черный</param>
+        <param name="Материал корпуса">пластик/алюминий</param>
+        <param name="Цифровой блок клавиатуры">ДА</param>
+        <param name="Поверхность экрана">матовая</param>
+        <param name="Разъем наушники/микрофон">ДА</param>
+        <param name="Подсветка клавиш клавиатуры">ДА</param>
+        <param name="Энергоемкость батареи (Wh)">45.6</param>
+        <param name="Напряжение батареи (V)">7.6</param>
+        <param name="Тип батареи">Li-Pol</param>
+        <param name="Процессор, частота (в режиме turbo)">4</param>
+        <param name="Тип матрицы">IPS</param>
+        <param name="Произведено в РФ">ДА</param>
+        <param name="PartNumber/Артикул Производителя">F150A-011</param>
+        <param name="Разрешение">1920x1080</param>
+        <param name="Процессор ">AMD Ryzen 5 5500U 2.1ГГц</param>
+        <param name="Оперативная память ">16ГБ DDR4 3200МГц</param>
+        <param name="Видеокарта ">AMD Radeon</param>
+        <param name="Операционная система ноутбука">Windows 11 Домашняя</param>
+        <param name="Батарея ">Li-Pol 6000 mAh</param>
+        <param name="Размеры корпуса ">357.7x228.6x18мм</param>
+        <param name="Разрешение матрицы экрана">FHD</param>
+        <param name="Версия операционной системы">Home</param>
+        <param name="Порты USB 3.0 (Type-C)">2</param>
+        <param name="Частота обновления">60</param>
+        <param name="Год релиза">2023</param>
+        <param name="Количество слотов под модули памяти">2</param>
+        <param name="Тип матрицы (как указывает производитель)">IPS</param>
+        <param name="Яркость экрана">300</param>
+        <param name="Возможность апгрейда оперативной памяти">ДА</param>
+        <param name="Высота упаковки (ед)">0.31</param>
+        <param name="Габариты упаковки (ед) ДхШхВ">0.48x0.08x0.31</param>
+        <param name="Длина упаковки (ед)">0.48</param>
+        <param name="Ширина упаковки (ед)">0.08</param>
+        <param name="Вес упаковки (ед)">1.7</param>
+        <param name="Объем упаковки (ед)">0.011904</param>
+        <param name="Объем кэша L2">3</param>
+        <param name="Объем кэша L3">8</param>
+        <param name="Устройства позиционирования">Touchpad</param>
+        <param name="Ядро процессора">Lucienne</param>
+        <param name="Клавиатура с русскими буквами">ДА</param>
+        <param name="Цвет подсветки клавиатуры">белая</param>
+        <param name="Цветовой охват NTSC">45</param>
+        <param name="Выходная мощность адаптера питания">65</param>
+        <param name="Версия HDMI">2.1</param>
+        <param name="Количество высокопроизводительных ядер">6</param>
+        <param name="Количество динамиков">2</param>
+        <param name="Количество микрофонов">2</param>
+        <param name="Мощность одного динамика">2</param>
+        <param name="Плотность пикселей">141</param>
+        <param name="Соотношение сторон">16:9</param>
+        <param name="Угол обзора">170-178</param>
+        <param name="Функция быстрой зарядки">ДА</param>
+        <param name="Цвет (маркетинговый)">Space Gray</param>
+        <param name="Цвет для фильтра">серый</param>
+        <param name="Для работы">ДА</param>
+        <param name="Для учебы">ДА</param>
+        <param name="Интерфейс первого разъема установленного SSD">PCI-E 3.0 x4</param>
+        <param name="Количество занятых слотов оперативной памяти">1</param>
+        <param name="Количество разъемов жесткого диска">1</param>
+        <param name="Количество свободных слотов оперативной памяти">1</param>
+        <param name="Максимальное число потоков">12</param>
+        <param name="Серия (для фильтра Ситилинка)">OSIO FocusLine</param>
+        <param name="Возможность зарядки от Type-C (USB Power Delivery)">ДА</param>
+        <param name="Возможность передачи видео через USB Type-C">ДА</param>
+        <param name="Мак. скорость передачи данных (Type-A)">5</param>
+        <param name="Мак. скорость передачи данных (Type-C)">5</param>
+        <param name="Материал для фильтра Ситилинк">металл</param>
+        <param name="Общее количество портов USB Type-A">3</param>
+        <param name="Общее количество портов USB Type-С">2</param>
+        <param name="Техпроцесс / литография">7 нм</param>
+        <param name="Язык клавиатуры">русский/английский</param>
+        <param name="Разрешение (для фильтра Ситилинк)">FULL HD</param>
+        <param name="Процессор (для автозаполнения)">AMD Ryzen 5 5500U</param>
+        <param name="Объем первого SSD">512</param>
+        <param name="Жесткие диски (подбор)">ssd512</param>
+      </offer>
+      <offer id="2049351" available="true">
+        <url>https://www.citilink.ru/product/noutbuk-osio-focusline-f150i-020-i5-1235u-16gb-ssd512gb-15-6-fhd-noos-2049351/</url>
+        <price>57990</price>
+        <categoryId>3</categoryId>
+        <picture>https://cdn.citilink.ru/GRejsGsqis4-0J5SfykwID0fnz6P2JTAPOfqELm8aMo/background:255:255:255/extend:1/gravity:sm/height:500/resizing_type:fit/width:500/plain/items/2049351_v01_b.jpg</picture>
+        <delivery>true</delivery>
+        <name>Ноутбук OSIO FocusLine F150i-020 15.6", 2023, IPS, Intel Core i5 1235U 1.3ГГц, 10-ядерный, 16ГБ DDR4, 512ГБ SSD, Intel Iris Xe graphics, без операционной системы, серый</name>
+        <vendor>OSIO</vendor>
+        <description>экран: 15.6 "; разрешение экрана: 1920х1080; тип матрицы: IPS; частота: 1.3 ГГц (4.4 ГГц, в режиме Turbo); Intel Iris Xe graphics; без операционной системы; память: 16 ГБ, DDR4, 3200 МГц; SSD: 512 ГБ</description>
+        <param name="Семейство">FocusLine</param>
+        <param name="Модель">F150i-020</param>
+        <param name="Диагональ экрана в дюймах">15.6</param>
+        <param name="Разр-ние экрана, гор-ное">1920</param>
+        <param name="Разр-ние экрана, верт-ное">1080</param>
+        <param name="Процессор, производитель">Intel</param>
+        <param name="Процессор, серия">Core i5</param>
+        <param name="Процессор, модель">1235U</param>
+        <param name="Процессор, частота">1.3</param>
+        <param name="Объем оперативной памяти">16</param>
+        <param name="Серия граф. контроллера">Intel Iris Xe graphics</param>
+        <param name="Операционная система">без ОС</param>
+        <param name="Порты USB 2.0 (Type-A)">1</param>
+        <param name="Поддержка технологии Wi-Fi">ДА</param>
+        <param name="Поддержка технологии Bluetooth">ДА</param>
+        <param name="Веб-камера">ДА</param>
+        <param name="Разъем HDMI">ДА</param>
+        <param name="Цветовое решение">серый</param>
+        <param name="Ширина товара">357.7</param>
+        <param name="Вес товара">1.7</param>
+        <param name="Высота (максимальная)">18</param>
+        <param name="Глубина товара">228.6</param>
+        <param name="Тип графического контроллера">интегрированный</param>
+        <param name="Максимальное время работы от батареи">8</param>
+        <param name="Объем SSD">512</param>
+        <param name="Количество SSD">1</param>
+        <param name="Тип">Ноутбук</param>
+        <param name="Ёмкость батареи (mAh)">6000</param>
+        <param name="Порты USB 3.0 (Type-A)">2</param>
+        <param name="Количество ядер процессора">10-ядерный</param>
+        <param name="Тип оперативной памяти">DDR4</param>
+        <param name="Частота оперативной памяти">3200</param>
+        <param name="Макс. объем оперативной памяти">64</param>
+        <param name="Стандарт Wi-Fi">802.11 a/b/g/n/ac</param>
+        <param name="Версия Bluetooth">v5.1</param>
+        <param name="Разрешение веб-камеры">1.9</param>
+        <param name="Акустическая система">стереодинамики</param>
+        <param name="Встроенный кард-ридер">ДА</param>
+        <param name="Поддержка карт памяти">microSD</param>
+        <param name="Цвет клавиатуры ноутбука">черный</param>
+        <param name="Материал корпуса">пластик/алюминий</param>
+        <param name="Цифровой блок клавиатуры">ДА</param>
+        <param name="Поверхность экрана">матовая</param>
+        <param name="Разъем наушники/микрофон">ДА</param>
+        <param name="Подсветка клавиш клавиатуры">ДА</param>
+        <param name="Энергоемкость батареи (Wh)">45.6</param>
+        <param name="Напряжение батареи (V)">7.6</param>
+        <param name="Тип батареи">Li-Pol</param>
+        <param name="Процессор, частота (в режиме turbo)">4.4</param>
+        <param name="Тип матрицы">IPS</param>
+        <param name="Произведено в РФ">ДА</param>
+        <param name="PartNumber/Артикул Производителя">F150I-020</param>
+        <param name="Разрешение">1920x1080</param>
+        <param name="Процессор ">Intel Core i5 1235U 1.3ГГц</param>
+        <param name="Оперативная память ">16ГБ DDR4 3200МГц</param>
+        <param name="Видеокарта ">Intel Iris Xe graphics</param>
+        <param name="Операционная система ноутбука">без ОС</param>
+        <param name="Батарея ">Li-Pol 6000 mAh</param>
+        <param name="Размеры корпуса ">357.7x228.6x18мм</param>
+        <param name="Разрешение матрицы экрана">FHD</param>
+        <param name="Порты USB 3.0 (Type-C)">1</param>
+        <param name="Частота обновления">60</param>
+        <param name="Год релиза">2023</param>
+        <param name="Количество слотов под модули памяти">2</param>
+        <param name="Тип матрицы (как указывает производитель)">IPS</param>
+        <param name="Яркость экрана">300</param>
+        <param name="Возможность апгрейда оперативной памяти">ДА</param>
+        <param name="Высота упаковки (ед)">0.315</param>
+        <param name="Габариты упаковки (ед) ДхШхВ">0.477x0.077x0.315</param>
+        <param name="Длина упаковки (ед)">0.477</param>
+        <param name="Ширина упаковки (ед)">0.077</param>
+        <param name="Вес упаковки (ед)">2.5</param>
+        <param name="Объем упаковки (ед)">0.011569635</param>
+        <param name="Объем кэша L2">6.5</param>
+        <param name="Объем кэша L3">12</param>
+        <param name="Устройства позиционирования">Touchpad</param>
+        <param name="Ядро процессора">Alder Lake</param>
+        <param name="Клавиатура с русскими буквами">ДА</param>
+        <param name="Цвет подсветки клавиатуры">белая</param>
+        <param name="Цветовой охват NTSC">45</param>
+        <param name="Выходная мощность адаптера питания">65</param>
+        <param name="Версия HDMI">2.1</param>
+        <param name="Количество высокопроизводительных ядер">2</param>
+        <param name="Количество динамиков">2</param>
+        <param name="Количество микрофонов">2</param>
+        <param name="Количество энергоэффективных ядер">8</param>
+        <param name="Мощность одного динамика">2</param>
+        <param name="Плотность пикселей">141</param>
+        <param name="Соотношение сторон">16:9</param>
+        <param name="Угол обзора">170-178</param>
+        <param name="Функция быстрой зарядки">ДА</param>
+        <param name="Цвет (маркетинговый)">Space Gray</param>
+        <param name="Цвет для фильтра">серый</param>
+        <param name="Для работы">ДА</param>
+        <param name="Для учебы">ДА</param>
+        <param name="Интерфейс первого разъема установленного SSD">PCI-E 3.0 x4</param>
+        <param name="Количество занятых слотов оперативной памяти">1</param>
+        <param name="Количество разъемов жесткого диска">1</param>
+        <param name="Количество свободных слотов оперативной памяти">1</param>
+        <param name="Максимальное число потоков">12</param>
+        <param name="Серия (для фильтра Ситилинка)">OSIO FocusLine</param>
+        <param name="Возможность зарядки от Type-C (USB Power Delivery)">ДА</param>
+        <param name="Мак. скорость передачи данных (Type-A)">5</param>
+        <param name="Мак. скорость передачи данных (Type-C)">5</param>
+        <param name="Материал для фильтра Ситилинк">металл</param>
+        <param name="Общее количество портов USB Type-A">3</param>
+        <param name="Общее количество портов USB Type-С">1</param>
+        <param name="Техпроцесс / литография">Intel 7</param>
+        <param name="Язык клавиатуры">русский/английский</param>
+        <param name="Разрешение (для фильтра Ситилинк)">FULL HD</param>
+        <param name="Процессор (для автозаполнения)">Intel Core i5 1235U</param>
+        <param name="Объем первого SSD">512</param>
+        <param name="Жесткие диски (подбор)">ssd512</param>
+      </offer>
+      <offer id="2050890" available="true">
+        <url>https://www.citilink.ru/product/noutbuk-osio-baseline-b150i-010b-n200-8gb-ssd512gb-15-6-fhd-w11h-black-2050890/</url>
+        <price>36990</price>
+        <categoryId>3</categoryId>
+        <picture>https://cdn.citilink.ru/-MHhUaVZq3iRk41hzlC20-0OALVdll2azIN3tboMhSs/background:255:255:255/extend:1/gravity:sm/height:500/resizing_type:fit/width:500/plain/items/2050890_v01_b.jpg</picture>
+        <delivery>true</delivery>
+        <name>Ноутбук OSIO BaseLine B150i-010b 15.6", 2024, IPS, Intel N200 1ГГц, 4-ядерный, 8ГБ DDR4, 512ГБ SSD, Intel UHD Graphics, Windows 11 Home, черный</name>
+        <vendor>OSIO</vendor>
+        <description>экран: 15.6 "; разрешение экрана: 1920х1080; тип матрицы: IPS; частота: 1 ГГц (3.7 ГГц, в режиме Turbo); Intel UHD Graphics; Windows 11 Home; память: 8 ГБ, DDR4, 3200 МГц; SSD: 512 ГБ</description>
+        <param name="Семейство">BaseLine</param>
+        <param name="Модель">B150i-010b</param>
+        <param name="Диагональ экрана в дюймах">15.6</param>
+        <param name="Разр-ние экрана, гор-ное">1920</param>
+        <param name="Разр-ние экрана, верт-ное">1080</param>
+        <param name="Процессор, производитель">Intel</param>
+        <param name="Процессор, серия">N-series</param>
+        <param name="Процессор, модель">N200</param>
+        <param name="Процессор, частота">1</param>
+        <param name="Объем оперативной памяти">8</param>
+        <param name="Серия граф. контроллера">Intel UHD Graphics</param>
+        <param name="Операционная система">Windows 11</param>
+        <param name="Порты USB 2.0 (Type-A)">1</param>
+        <param name="Поддержка технологии Wi-Fi">ДА</param>
+        <param name="Поддержка технологии Bluetooth">ДА</param>
+        <param name="Веб-камера">ДА</param>
+        <param name="Разъем HDMI">ДА</param>
+        <param name="Тип кабельной сети (разъем RJ-45)">10/100/1000 (Gigabit Ethernet)</param>
+        <param name="Цветовое решение">черный</param>
+        <param name="Ширина товара">356.25</param>
+        <param name="Вес товара">1.76</param>
+        <param name="Высота (максимальная)">19.8</param>
+        <param name="Глубина товара">241.89</param>
+        <param name="Тип графического контроллера">интегрированный</param>
+        <param name="Объем SSD">512</param>
+        <param name="Количество SSD">1</param>
+        <param name="Тип">Ноутбук</param>
+        <param name="Ёмкость батареи (mAh)">5000</param>
+        <param name="Дополнительно в комплекте">Зарядное устройство, документация</param>
+        <param name="Порты USB 3.0 (Type-A)">2</param>
+        <param name="Количество ядер процессора">4-ядерный</param>
+        <param name="Тип оперативной памяти">DDR4</param>
+        <param name="Частота оперативной памяти">3200</param>
+        <param name="Макс. объем оперативной памяти">16</param>
+        <param name="Стандарт Wi-Fi">802.11 a/b/g/n/ac</param>
+        <param name="Версия Bluetooth">v5.0</param>
+        <param name="Разрешение веб-камеры">1.9</param>
+        <param name="Акустическая система">стереодинамики</param>
+        <param name="Цвет клавиатуры ноутбука">черный</param>
+        <param name="Материал корпуса">пластик</param>
+        <param name="Цифровой блок клавиатуры">ДА</param>
+        <param name="Поверхность экрана">матовая</param>
+        <param name="Разъем наушники/микрофон">ДА</param>
+        <param name="Напряжение батареи (V)">7.6</param>
+        <param name="Тип батареи">Li-Pol</param>
+        <param name="Процессор, частота (в режиме turbo)">3.7</param>
+        <param name="Тип матрицы">IPS</param>
+        <param name="Произведено в РФ">ДА</param>
+        <param name="PartNumber/Артикул Производителя">B150I-010B</param>
+        <param name="Разрешение">1920x1080</param>
+        <param name="Процессор ">Intel N-series N200 1ГГц</param>
+        <param name="Оперативная память ">8ГБ DDR4 3200МГц</param>
+        <param name="Видеокарта ">Intel UHD Graphics</param>
+        <param name="Операционная система ноутбука">Windows 11 Домашняя</param>
+        <param name="Батарея ">Li-Pol 5000 mAh</param>
+        <param name="Размеры корпуса ">356.25x241.89x19.8мм</param>
+        <param name="Разрешение матрицы экрана">FHD</param>
+        <param name="Версия операционной системы">Home</param>
+        <param name="Порты USB 3.0 (Type-C)">2</param>
+        <param name="Частота обновления">60</param>
+        <param name="Год релиза">2024</param>
+        <param name="Количество слотов под модули памяти">1</param>
+        <param name="Среднее время работы">5</param>
+        <param name="Тип матрицы (как указывает производитель)">IPS</param>
+        <param name="Яркость экрана">250</param>
+        <param name="Возможность апгрейда оперативной памяти">ДА</param>
+        <param name="Высота упаковки (ед)">0.3</param>
+        <param name="Габариты упаковки (ед) ДхШхВ">0.495x0.065x0.3</param>
+        <param name="Длина упаковки (ед)">0.495</param>
+        <param name="Ширина упаковки (ед)">0.065</param>
+        <param name="Вес упаковки (ед)">2.7</param>
+        <param name="Объем упаковки (ед)">0.0096525</param>
+        <param name="Объем кэша L2">2</param>
+        <param name="Объем кэша L3">6</param>
+        <param name="Устройства позиционирования">Touchpad</param>
+        <param name="Ядро процессора">Alder Lake</param>
+        <param name="Клавиатура с русскими буквами">ДА</param>
+        <param name="Цветовой охват NTSC">45</param>
+        <param name="Выходная мощность адаптера питания">36</param>
+        <param name="Версия HDMI">1.4</param>
+        <param name="Количество высокопроизводительных ядер">4</param>
+        <param name="Количество динамиков">2</param>
+        <param name="Количество микрофонов">1</param>
+        <param name="Мощность одного динамика">1</param>
+        <param name="Соотношение сторон">16:9</param>
+        <param name="Угол обзора">170-178</param>
+        <param name="Цвет (маркетинговый)">Black</param>
+        <param name="Цвет для фильтра">черный</param>
+        <param name="Для учебы">ДА</param>
+        <param name="Количество занятых слотов оперативной памяти">1</param>
+        <param name="Количество разъемов жесткого диска">1</param>
+        <param name="Максимальное число потоков">4</param>
+        <param name="Разъем SSD">M.2</param>
+        <param name="Серия (для фильтра Ситилинка)">OSIO BaseLine</param>
+        <param name="Форм-фактора первого разъема установленного SSD">M.2 2280</param>
+        <param name="Возможность зарядки от Type-C (USB Power Delivery)">ДА</param>
+        <param name="Возможность передачи видео через USB Type-C">ДА</param>
+        <param name="Мак. скорость передачи данных (Type-A)">5</param>
+        <param name="Материал для фильтра Ситилинк">пластик</param>
+        <param name="Общее количество портов USB Type-A">3</param>
+        <param name="Общее количество портов USB Type-С">2</param>
+        <param name="Техпроцесс / литография">Intel 7</param>
+        <param name="Тип веб-камеры">со шторкой</param>
+        <param name="Язык клавиатуры">русский/английский</param>
+        <param name="Разрешение (для фильтра Ситилинк)">FULL HD</param>
+        <param name="Процессор (для автозаполнения)">Intel N-series N200</param>
+        <param name="Объем первого SSD">512</param>
+        <param name="Жесткие диски (подбор)">ssd512</param>
+        <param name="Расположение веб-камеры">над монитором</param>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>

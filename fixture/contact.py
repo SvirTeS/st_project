@@ -165,22 +165,26 @@ class ContactHelper:
         wd = self.app.wd
         self.open_contact_by_index(index)
         text = wd.find_element_by_id('content').text
-        home_phone = re.search('H: (.*)', text).group(1)
-        mobile_phone = re.search('M: (.*)', text).group(1)
-        work_phone = re.search('W: (.*)', text).group(1)
+        home_phone = getattr(re.search('H: (.*)', text), 'group', lambda x: '')(1)
+        mobile_phone = getattr(re.search('M: (.*)', text), 'group', lambda x: '')(1)
+        work_phone = getattr(re.search('W: (.*)', text), 'group', lambda x: '')(1)
         return Contact(id=id, home_phone=home_phone, mobile_phone=mobile_phone,
                        work_phone=work_phone)
 
     def add_contact_to_group_by_id(self, contact_id, group_id):
         wd = self.app.wd
         self.select_contact_by_id(contact_id)
+        wd.implicitly_wait(3)
         wd.find_element_by_name('to_group').click
         Select(wd.find_element_by_name('to_group')).select_by_value(group_id)
+        wd.implicitly_wait(3)
         wd.find_element_by_name('add').click()
 
     def remove_contact_from_group_by_id(self, contact_id, group_id):
         wd = self.app.wd
         group_choice = Select(wd.find_element_by_xpath('//*[@id="right"]/select'))
+        wd.implicitly_wait(3)
         group_choice.select_by_value(group_id)
         self.select_contact_by_id(contact_id)
+        wd.implicitly_wait(3)
         wd.find_element_by_name("remove").click()

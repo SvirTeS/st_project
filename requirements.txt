@@ -3,5 +3,4 @@ urllib3==1.26.16
 pytest==8.2.2
 jsonpickle
 PyMySQL
-pony
 sqlalchemy

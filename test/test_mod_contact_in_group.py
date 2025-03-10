@@ -1,3 +1,5 @@
+import time
+
 from model.contact import Contact
 from model.group import Group
 import random
@@ -16,10 +18,10 @@ def test_add_contact_in_group(app, orm):
     group_choice = random.choice(groups_list)
     contacts_list = orm.get_contacts_not_in_group(group_choice)
     contact_choice = random.choice(contacts_list)
-    contact_choice_id = contact_choice.id
+    app.open_home_page()
     app.contact.add_contact_to_group_by_id(contact_choice.id, group_choice.id)
     contacts_in_group = orm.get_contacts_in_group(group_choice)
-    assert any(c.id == contact_choice_id for c in contacts_in_group)
+    assert any(c.id == contact_choice.id for c in contacts_in_group)
 
 
 def test_remove_contact_from_group(app, orm):
@@ -28,13 +30,15 @@ def test_remove_contact_from_group(app, orm):
     if len(orm.get_group_list()) == 0:
         app.group.create(Group(group_name='test'))
         app.open_home_page()
+    app.open_home_page()
     groups_list = orm.get_group_list()
     group_choice = random.choice(groups_list)
+    if len(orm.get_contacts_in_group(group_choice)) == 0:
+        contact_choice = random.choice(orm.get_contacts_not_in_group(group_choice))
+        app.contact.add_contact_to_group_by_id(contact_choice.id, group_choice.id)
+        app.open_home_page()
     contacts_list = orm.get_contacts_in_group(group_choice)
     contact_choice = random.choice(contacts_list)
-    contact_choice_id = contact_choice.id
-    if len(orm.get_contacts_in_group(group_choice)) == 0:
-        app.contact.add_contact_to_group_by_id(contact_choice.id, group_choice.id)
     app.contact.remove_contact_from_group_by_id(contact_choice.id, group_choice.id)
-    contacts_in_group = orm.get_contacts_in_group(group_choice)
-    assert any(c.id != contact_choice_id for c in contacts_in_group)
+    groups_in_contact = orm.get_contacts_not_in_group(group_choice)
+    assert any(c.id == contact_choice.id for c in groups_in_contact)

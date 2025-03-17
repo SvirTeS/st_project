@@ -1,4 +1,5 @@
 from model.group import Group
+import time
 
 
 class GroupHelper:
@@ -48,9 +49,11 @@ class GroupHelper:
         wd = self.app.wd
         self.open_group_page()
         self.init_group_creation()
+        time.sleep(1)
         self.fill_group_data(group)
         self.submit_group_creation()
-        self.open_group_page()
+        time.sleep(1)
+        self.return_group_page()
         self.group_cache = None
 
     def submit_group_creation(self):

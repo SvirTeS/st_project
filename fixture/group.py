@@ -50,7 +50,7 @@ class GroupHelper:
         self.init_group_creation()
         self.fill_group_data(group)
         self.submit_group_creation()
-        self.return_group_page()
+        self.open_group_page()
         self.group_cache = None
 
     def submit_group_creation(self):
